@@ -84,7 +84,6 @@ body{
 
 .card{
     transition: all .6s;
-    cursor: pointer;
 }
 .card:hover{
     transform: scale(1.06);
