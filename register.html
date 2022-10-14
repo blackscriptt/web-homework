@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/form-style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <video class="background__video" src="video/background.mp4" muted autoplay loop></video>
+        <section class="form__box">
+            <div class="form__text">
+                <h1>Kaan Bilişim</h1>
+                <p>Personellerimiz için kayıt bölümü.</p>
+            </div>
+            
+            <hr>
+            <form>
+                <div class="form__items">
+                    <label for="txtUserName">Kullanıcı adınız</label>
+                    <input type="text" name="txtUserName" id="txtUserName" placeholder="admin kaan" required>
+                </div>
+                <div class="form__items">
+                    <label for="txtEmail">E-mail adresiniz</label>
+                    <input type="email" name="txtEmail" id="txtEmail" placeholder="kaanadmin@gmail.com" required>
+                </div>
+                <div class="form__items">
+                    <label for="txtPassword">Şifreniz</label>
+                    <input type="password" name="txtPassword" id="txtPassword" placeholder="********" required>
+                </div>
+                <div class="form__items">
+                    <label for="txtPassword">Onay Şifreniz</label>
+                    <input type="password" name="txtPassword" id="txtPassword" placeholder="********" required>
+                </div>
+                <div class="form__items">
+                    <label class="rdLabel">Cinsiyetiniz</label>
+                    <input type="radio" name="rdCinsiyet" id="rdCinsiyetE" checked> <label for="rdCinsiyetE">Erkek</label>
+                    <input type="radio" name="rdCinsiyet" id="rdCinsiyetK"> <label for="rdCinsiyetK">Kız</label>
+                </div>
+                <div class="form__items">
+                    <label class="cbLabel">Bildiğiniz diller</label>
+                    <div class="form__language__box">
+                        <div class="form__language__items">
+                            <div>
+                                <input type="checkbox" name="cbPython" id="cbPython"> <label for="cbPython">Python</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="cbCSharp" id="cbCSharp"> <label for="cbCSharp">c#</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="cbJS" id="cbJS"> <label for="cbJS">JavaScript</label>
+                            </div>
+                            
+                        </div>
+                        <div  class="form__language__items">
+                            <div>
+                                <input type="checkbox" name="cbJava" id="cbJava"> <label for="cbJava">Java</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="cbKotlin" id="cbKotlin"> <label for="cbKotlin">Kotlin</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="cbWD" id="cbWD"> <label for="cbWD">Web Developer</label>
+                            </div>
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+                <div class="form__button">
+                    <input type="submit" value="Kayıt Ol">
+                    <a href="login.html">Bir hesabım var <small>>></small></a>
+                </div>
+                
+            </form>
+        </section>
+    </body>
+</html>

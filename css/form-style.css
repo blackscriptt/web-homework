@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #262626;
+    overflow: hidden;
+}
+.background__video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: .6;
+    position: relative;
+}
+
+.form__box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    padding: 25px;
+    background: rgba(255,255,255,.2);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+.form__text{
+    text-align: center;
+}
+.form__text h1{
+    transform: scale(1.2);
+    color: #fff;
+}
+.form__text p{
+    color: rgba(255,255,255,.5);
+    margin-top: 10px;
+}
+hr{
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* FORM ITEMS START */
+.form__items{
+    margin: 20px 0;
+}
+.form__items label{
+    color: #fff;
+    font-size: 17px;
+}
+.form__items .rdLabel, .form__items .cbLabel{
+    display: block;
+}
+.form__items input[name*="txt"]{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    font-size: 16px;
+    border: none;
+}
+.form__items input[name*="txt"]:focus{
+    outline: 3px solid rgba(255, 255, 255, 0.2);
+}
+.form__items input[type="radio"]{
+    margin-top: 10px;
+    color: #fff;
+}
+.form__items label[for^="rd"]{
+    opacity: .6;
+    margin-right: 10px;
+}
+.form__language__box{
+    display:flex;
+    margin-top: 10px;
+}
+.form__language__items{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+/* FORM ITEMS END */
+
+/* FORM BUTTON START */
+.form__button{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+.form__button input[type="submit"]{
+    border: 0;
+    font-size: 15px;
+    background-color: green;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.form__button input[type="submit"]:hover{
+    outline: 3px solid rgba(255, 255, 255, 0.2);
+}
+.form__button a{
+    margin-left: auto;
+    text-decoration: none;
+    color: #fff;
+}
+.form__button a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background-color: #fff;
+    transition: all .6s ease;
+}
+.form__button a:hover::after{
+    width: 100%;
+}
+/* FORM BUTTON END */
