@@ -80,7 +80,9 @@ hr{
     flex-direction: column;
     margin-right: 20px;
 }
-
+.form__language__items label{
+    opacity: .6;
+}
 /* FORM ITEMS END */
 
 /* FORM BUTTON START */
