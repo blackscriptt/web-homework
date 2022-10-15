@@ -126,3 +126,27 @@ hr{
     width: 100%;
 }
 /* FORM BUTTON END */
+
+/* RESPONSIVE START */
+@media screen and (max-width: 865px){
+    .form__box{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 460px){
+    body{
+        overflow-y: auto;
+    }
+    .form__box{
+        width: 100%;
+        padding: 5px;
+    }
+    .form__button{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form__button a{
+        margin-top: 10px;
+    }  
+}
+/* RESPONSIVE END */
