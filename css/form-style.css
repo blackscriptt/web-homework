@@ -110,7 +110,6 @@ hr{
     outline: 3px solid rgba(255, 255, 255, 0.2);
 }
 .form__button a{
-    margin-left: auto;
     text-decoration: none;
     color: #fff;
 }
