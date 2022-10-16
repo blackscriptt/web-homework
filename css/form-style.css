@@ -1,8 +1,3 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 body{
     background: #262626;
     overflow: hidden;
@@ -12,141 +7,57 @@ body{
     height: 100vh;
     object-fit: cover;
     opacity: .6;
-    position: relative;
 }
 
-.form__box{
+
+.form__center{
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 35%;
-    padding: 25px;
+    z-index: 999;
+}
+
+
+.form__box{
     background: rgba(255,255,255,.2);
     backdrop-filter: blur(10px);
-    border-radius: 5px;
+    border-radius: 6px;
 }
-.form__text{
-    text-align: center;
+.form__item{
+    margin-bottom: 20px;
 }
-.form__text a{
-    text-decoration: none;
-}
-.form__text h1{
-    transform: scale(1.2);
+.form__item label{
     color: #fff;
-    transition: all .3s ease;
 }
-.form__text h1:hover{
-    transform: scale(1.3);
-}
-.form__text p{
-    color: rgba(255,255,255,.5);
-    margin-top: 10px;
-}
-hr{
-    width: 50%;
-    margin: 20px auto;
-}
-
-/* FORM ITEMS START */
-.form__items{
-    margin: 20px 0;
-}
-.form__items label{
-    color: #fff;
-    font-size: 17px;
-}
-.form__items .rdLabel, .form__items .cbLabel{
-    display: block;
-}
-.form__items input[name*="txt"]{
-    width: 100%;
-    padding: 5px;
+.form__item input{
     outline: none;
-    font-size: 16px;
-    border: none;
+    border :none;
+    padding: 3px 6px;
+    border-radius: 3px;
 }
-.form__items input[name*="txt"]:focus{
-    outline: 3px solid rgba(255, 255, 255, 0.2);
+.form__item__btn{
+    margin-top: 30px;
 }
-.form__items input[type="radio"]{
-    margin-top: 10px;
-    color: #fff;
-}
-.form__items label[for^="rd"]{
-    opacity: .6;
-    margin-right: 10px;
-}
-.form__language__box{
-    display:flex;
-    margin-top: 10px;
-}
-.form__language__items{
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-}
-.form__language__items label{
-    opacity: .6;
-}
-/* FORM ITEMS END */
-
-/* FORM BUTTON START */
-.form__button{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-top: 40px;
-}
-.form__button input[type="submit"]{
-    border: 0;
-    font-size: 15px;
-    background-color: green;
-    color: #fff;
-    padding: 10px 15px;
-    cursor: pointer;
-}
-.form__button input[type="submit"]:hover{
-    outline: 3px solid rgba(255, 255, 255, 0.2);
-}
-.form__button a{
-    text-decoration: none;
-    color: #fff;
-}
-.form__button a::after{
+.form__item__btn a::after{
     content: '';
+    display: block;
     width: 0%;
     height: 2px;
-    display: block;
-    background-color: #fff;
+    background: #fff;
     transition: all .6s ease;
 }
-.form__button a:hover::after{
+.form__item__btn a:hover::after{
     width: 100%;
 }
-/* FORM BUTTON END */
-
-/* RESPONSIVE START */
-@media screen and (max-width: 865px){
-    .form__box{
-        width: 65%;
-    }
+.form__item__btn a span{
+    font-size: small;
 }
-@media screen and (max-width: 460px){
+
+
+@media screen and (max-width: 300px){
     body{
         overflow-y: auto;
     }
-    .form__box{
-        width: 100%;
-        padding: 5px;
-    }
-    .form__button{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .form__button a{
-        margin-top: 10px;
-    }  
 }
-/* RESPONSIVE END */
