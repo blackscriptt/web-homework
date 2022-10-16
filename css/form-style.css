@@ -7,6 +7,8 @@ body{
     height: 100vh;
     object-fit: cover;
     opacity: .6;
+    position: fixed;
+    top: 0;
 }
 
 
@@ -56,8 +58,14 @@ body{
 }
 
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 575px){
     body{
         overflow-y: auto;
     }
+    .form__register__center{
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+    }
+
 }
