@@ -48,6 +48,7 @@ body{
     width: 0%;
     height: 2px;
     background: #fff;
+    margin: 0 auto;
     transition: all .6s ease;
 }
 .form__item__btn a:hover::after{
