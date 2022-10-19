@@ -1,0 +1,47 @@
+body{
+}
+
+nav.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.takip__et{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    height: 100vh;
+    z-index: 999;
+}
+#header{
+    background-image: linear-gradient(rgba(0, 0, 0, .6),rgba(0,0,0,.6)), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kartal24.com%2Fdosyalar%2F2020%2F08%2Fhayaltepe-sosyal-tesisi.jpg&f=1&nofb=1&ipt=fff7df4a2c96c2c958e6a6512927f7493f7906e64e3ddcc3bcd066137cc3ba95&ipo=images');
+    background-size: cover;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+    position: relative;
+}
+.header__main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main__text h1 span{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.main__img{
+    margin-left: 50px;
+}
+.main__img img{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    outline: 10px solid rgba(255, 255, 255, .3);
+}
