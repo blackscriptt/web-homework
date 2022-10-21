@@ -1,47 +1,127 @@
 body{
+    background: #f4f4f4;
+}
+/* SCROLLBAR START */
+
+html::-webkit-scrollbar {
+    width: 7px;
 }
 
-nav.navbar{
+html::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgb(194, 194, 194);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+   background: rgb(100, 100, 100);
+   border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+    background: rgb(68, 68, 68);
+    border-radius: 10px;
+}
+
+/* SCROLLBAR END */
+
+/* NAV START */
+#nav{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 9999;
-}
-.takip__et{
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 30px;
-    height: 100vh;
+    padding: 30px 0;
     z-index: 999;
 }
-#header{
-    background-image: linear-gradient(rgba(0, 0, 0, .6),rgba(0,0,0,.6)), url('../image/okul-bg.jpg');
-    background-size: cover;
+nav .nav-link{
+    color:#fff!important;
+}
+
+.light{
+    background: #fff;
+    
+}
+nav.light .nav-link, nav.light .navbar-brand{
+    color: #000!important;
+}
+.light .hover-aft::after{
+    background:#000;
+}
+/* NAV END */
+
+/* HOVER AFTER START */
+
+.hover-aft::after{
+    content: '';
+    display:block;
+    background: #fff;
+    height: 2px;
+    width: 0%;
+    margin: 0 auto;
+    transition: all .6s ease;
+}
+.hover-aft:hover::after{
+    width: 100%;
+}
+
+/* HOVER AFTER END */
+
+
+/* HOVER OPACITY START */
+.hover-opc:hover{
+    opacity: .8;
+}
+
+/* HOVER OPACITY END */
+
+
+/* ASIDE START */
+#aside{
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100vh;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+    padding: 20px;
+}
+/* ASIDE END */
+
+
+/* HEADER START */
+#header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url('../image/okul-bg.jpg');
+    background-size: cover;
+    background-position: center;
     position: relative;
 }
-.header__main{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-}
-.main__text h1 span{
-    font-weight: bold;
-    font-size: 3rem;
-}
-.main__img{
-    margin-left: 50px;
-}
-.main__img img{
+#header img{
     width: 230px;
     height: 230px;
     border-radius: 50%;
-    outline: 10px solid rgba(255, 255, 255, .3);
+    outline: 7px solid rgba(255, 255, 255, .3);
+}
+/* HEADER END */
+
+
+
+@media screen and (max-width: 767px){
+    #nav{
+        background: #fff!important;
+        
+    }
+    nav .nav-link, nav .navbar-brand{
+        color: #000!important;
+    }
+    .hakkimda-img{
+        display: none;
+    }
+
+    #aside{
+        justify-content: flex-end!important;
+    }
 }
