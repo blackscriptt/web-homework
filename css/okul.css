@@ -163,6 +163,7 @@ nav.light .nav-link, nav.light .navbar-brand{
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0, .5),rgba(0,0,0,.5)), url('../image/okul-bg.jpg');
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     position: relative;
