@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
 body{
     background: #F7F8FA;
 }
+
+
 
 img{
     object-fit: cover;
@@ -13,6 +17,8 @@ img{
 .navbar-brand{
     letter-spacing: 5px;
 }
+
+
 
 .fs-7{
     font-size: .9rem!important;
@@ -28,16 +34,56 @@ img{
     color: green;
 }
 
+
+
 .linear-dark{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(0,0,0,.8));
 }
 .linear-kaan{
     background-image: linear-gradient( 68.2deg, rgba(59,186,255,1) 0.3%, rgba(209,98,247,1) 90.3% );
 }
+.linear-chat{
+    background-image: linear-gradient( 0deg, rgba(185,176,236,1) 4.8%, rgba(193,230,247,1) 77.1% );
+}
 
-.yardim-ekibi{
+
+
+.help__team{
     cursor: pointer;
 }
-.yardim-sohbet{
+.help__chat__box{
     display: none;
 }
+
+.help__chat::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.help__chat::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.help__chat::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #262626;
+}
+
+.font-opensans{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+
+.rounded-25{
+    border-radius: 25px;
+}
+
+
+
