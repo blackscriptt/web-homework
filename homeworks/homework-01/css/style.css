@@ -1,0 +1,43 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #F7F8FA;
+}
+
+img{
+    object-fit: cover;
+}
+
+
+.navbar-brand{
+    letter-spacing: 5px;
+}
+
+.fs-7{
+    font-size: .9rem!important;
+
+}
+.fs-8{
+    font-size: .8rem!important;
+}
+.fs-9{
+    font-size: .7rem!important;
+}
+.hv-success:hover{
+    color: green;
+}
+
+.linear-dark{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(0,0,0,.8));
+}
+.linear-kaan{
+    background-image: linear-gradient( 68.2deg, rgba(59,186,255,1) 0.3%, rgba(209,98,247,1) 90.3% );
+}
+
+.yardim-ekibi{
+    cursor: pointer;
+}
+.yardim-sohbet{
+    display: none;
+}
