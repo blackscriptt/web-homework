@@ -2,17 +2,21 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+    <!-- ! Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
 
-    <!-- Bootstrap CSS -->
+    <!-- ! Required link tags -->
+    <!-- TODO: Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="icon" href="./image/main-logo.png" sizes="32x32">
 
-    <title>Hello, world!</title>
+    <title>Svart - Geleceğe adım adım...</title>
 </head>
 
 <body>
@@ -20,11 +24,12 @@
     <!-- ! Nav - [START] -->
     <!-- ? px-0 responsive -->
     <nav
-        class="navbar navbar-expand-lg navbar-dark border-bottom border-white-50 shadow-sm py-3 px-0 position-fixed top-0 start-0 end-0">
+        class="navbar navbar-expand-lg navbar-dark border-bottom border-white-50 shadow-sm py-3 px-0 position-fixed top-0 start-0 end-0 nav-lg-white">
         <div class="container">
 
             <a class="navbar-brand" href="#">
-                <img src="./image/white-logo.png" alt="">
+                <img class="d-none d-lg-block" src="./image/white-logo.png" alt="">
+                <img class="d-lg-none" src="./image/black-logo.png" alt="">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -123,9 +128,9 @@
                     <!-- ! header form - [END^]-->
 
                     <!-- ! header icons - [START]-->
-                    <div class="col-12">
+                    <div class="col-12 d-none d-lg-block">
                         <div class="row g-3 px-lg-5 justify-content-center">
-                            <div class="col-6 col-sm-4 col-md-2">
+                            <div class="col-2">
                                 <!-- ? icon-text-center => flex, align-items, justify-content : center -->
                                 <a href="#"
                                     class="d-inline hover-lacivert icon-text-center flex-column text-white text-decoration-none">
@@ -137,7 +142,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-6 col-sm-4 col-md-2">
+                            <div class="col-2">
                                 <!-- ? icon-text-center => flex, align-items, justify-content : center -->
                                 <a href="#"
                                     class="d-inline hover-lacivert icon-text-center flex-column text-white text-decoration-none">
@@ -149,7 +154,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-6 col-sm-4 col-md-2">
+                            <div class="col-2">
                                 <!-- ? icon-text-center => flex, align-items, justify-content : center -->
                                 <a href="#"
                                     class="d-inline hover-lacivert icon-text-center flex-column text-white text-decoration-none">
@@ -161,7 +166,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-6 col-sm-4 col-md-2">
+                            <div class="col-2">
                                 <!-- ? icon-text-center => flex, align-items, justify-content : center -->
                                 <a href="#"
                                     class="d-inline hover-lacivert icon-text-center flex-column text-white text-decoration-none">
@@ -173,7 +178,7 @@
                                 </a>
                             </div>
 
-                            <div class="col-6 col-sm-4 col-md-2">
+                            <div class="col-2">
                                 <a href="#"
                                     class="d-inline hover-lacivert icon-text-center flex-column text-white text-decoration-none">
                                     <span
@@ -970,7 +975,7 @@
 
                 <div class="col-12">
                     
-                    <div class="row g-5">
+                    <div class="row gy-5 gx-md-5">
 
                         <div class="col-lg-4">
                             <img class="d-block mb-4" src="./image/black-logo.png" alt="">
