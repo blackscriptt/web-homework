@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+img, video{
+    object-fit: cover;
+}
+::selection{
+    background-color: #be8f00;
+    color:rgb(255, 255, 255);
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('../images/meetings-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 10000px; */
+}
+section{
+    margin-top: 140px;
+    margin-bottom: 110px;
+}
+/* ============================================================================ */
+
+.carousel__box{
+    background-image: url('../images/service-item-bg.jpg');
+    background-size: cover;
+    border-radius: 20px;
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: .7!important;
+    position: absolute!important;
+    top: 50%!important;
+    bottom: auto!important;
+    background-color: #fff!important;
+    color: #000!important;
+    border-radius: 50%!important;
+    padding: 0!important;
+    height: 40px!important;
+    width: 40px!important;
+    line-height: 40px;
+    transform: translate(-50%, -50%)!important;
+    transition: all .6s;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    opacity: .6!important;
+}
+
+.kaan{
+    position: relative;
+    top: -130px;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+    right: 0;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+.carousel-indicators li{
+    padding: 0!important;
+    background-color: rgb(255, 255, 255)!important;
+    border-radius: 50%;
+    width: 10px!important;
+    height: 10px!important;
+}
+.carousel-indicators li.active{
+    border-radius: 15px;
+    border: 0 solid #fff;
+    width: 35px!important;
+    transition: width .6s;
+}
+@media screen and (max-width: 992px){
+    .kaan{
+        top: 0!important;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        height: 24px!important;
+        width: 24px!important;
+        line-height: 24px;
+    }
+}
+
+.bg__meeting{
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    padding: 6rem 0;
+}
+
+#articleBtn1, #articleBtn2, #articleBtn3, #articleBtn4, #articleBtn5{
+    cursor: pointer;
+}
+#articleTxt2, #articleTxt3, #articleTxt4, #articleTxt5{
+    transition: all 2s ease;
+    height: 13px;
+}
+
+.video__item{
+    max-width: 550px;
+    height: 396px;
+}
+
+.form-control{
+    box-shadow: none!important;
+    border: none!important;
+    background-color: #F2F2F2!important;
+    padding: 9px 12px!important;
+}
+
+/* ============================================================================ */
+
+/* ! opacity - [START]  */
+
+.opacity-10{
+    opacity: .1;
+}
+.opacity-20{
+    opacity: .2;
+}
+.opacity-30{
+    opacity: .3;
+}
+.opacity-40{
+    opacity: .4;
+}
+.opacity-50{
+    opacity: .5;
+}
+.opacity-60{
+    opacity: .6;
+}
+.opacity-70{
+    opacity: .7;
+}
+
+/* ! opacity - [END^]  */
+
+
+
+/* ! border-radius - [START]  */
+.rounded-top-20{
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.rounded-20{
+    border-radius: 20px;
+}
+/* ! border-radius - [END^]  */
+
+
+
+/* ! z-index - [START] */
+
+.z-index-high{
+    z-index: 9999999999!important;
+}
+.z-index-low{
+    z-index: -1!important;
+}
+
+/* ! z-index - [END^] */
+
+
+
+/* ! color -  [START] */
+
+.text-red{
+    color: #a12c2f;
+}
+
+/* ! color -  [END^] */
+
+
+
+/* ! background-color -  [START] */
+.bg-white-10{
+    background-color: rgba(255,255,255,.1);
+}
+.bg-white-50{
+    background-color: rgba(255,255,255,.5);
+}
+
+
+.btn-danger{
+    background-color: #a12c2f!important;
+    box-shadow: none!important;
+    border-color: #a12c2f!important;
+}
+.bg-red{
+    background-color: #a12c2f;
+}
+
+.link-dark:hover{
+    color: #a12c2f!important;
+}
+/* ! background-color -  [END^] */ 
+
+
+.border-white-30{
+    border-color: rgba(255, 255, 255, .3)!important;
+}
+/* ! font-size - [START] */
+
+.fs-7{
+    font-size: .9rem;
+}
+.fs-8{
+    font-size: .8rem;
+}
+.fs-9{
+    font-size: .7rem;
+}
+.fs-10{
+    font-size: .6rem;
+}
+.fs-11{
+    font-size: .5rem;
+}
+
+/* ! font-size -  [END^] */ 
+
+
+
+/* ! font-weight - [START] */
+
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+
+/* ! font-weight - [END^] */
+
+
+
+/* ! navbar - [START] */
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff!important;
+    opacity: 1;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+/* ! navbar - [END^] */

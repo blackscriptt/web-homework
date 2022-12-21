@@ -1,0 +1,941 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <!-- ! nav - [START]-->
+  <nav class="navbar navbar-expand-lg navbar-dark z-index-high position-absolute top-0 start-0 w-100 bg-white-10 py-4">
+    <div class="container">
+      <a class="navbar-brand fs-3 fw-800" href="#">EDU MEETING</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#kaanNav"
+        aria-controls="kaanNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="kaanNav">
+        <ul class="navbar-nav text-uppercase ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Meeting</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Apply Now</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ! nav - [END^]-->
+
+  <!-- ! header- [START]-->
+  <header class="vh-100 bg-dark position-relative">
+
+    <!-- ? background video -->
+    <video class="position-absolute w-100 h-100 opacity-30" src="./videos/course-video.mp4" type="video/mp4" autoplay
+      muted loop></video>
+
+    <div class="position-absolute top-50 w-100 translate-middle-y">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col col-md-7 col-lg-5 text-white">
+            <h6 class="fw-700 fs-7">HELLO STUDENTS</h6>
+            <h2 class="fw-800 lh-lg">WELCOME TO EDUCATION</h2>
+            <p class="fw-600 fs-7 lh-base mb-4">
+              This is an edu meeting HTML CSS template provided by <a class="link link-info text-decoration-none"
+                href="#">TemplateMo website</a>. This is a Bootstrap v5.1.3 layout. The video background is taken from
+              Pexels website, a group of young people by <a class="link link-info text-decoration-none"
+                href="#">Pressmaster</a>.
+            </p>
+            <button type="button" class="btn btn-danger rounded-pill lh-lg fs-8 fw-600 py-2 px-4">JOIN US NOW!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ! header- [END^]-->
+
+  <!-- ! stick nav - [START]-->
+  <!-- <nav class="navbar navbar-expand-md bg-white navbar-light z-index-high position-sticky top-0 start-0  py-3">
+    <div class="container">
+      <a class="navbar-brand fs-3 fw-800" href="#">EDU MEETING</a>
+
+      <ul class="navbar-nav text-uppercase fs-7 fw-600">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Meeting</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Apply Now</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav> -->
+  <!-- ! stick nav - [END^]-->
+
+  <!-- ! carousel - [START]-->
+  <!-- ? mb-0 vermemin nedeni tüm section'lara margin bottom vermem-->
+  <section class="mb-0 mt-0">
+    <div class="kaan py-5 py-lg-0">
+      <div class="container">
+        <div id="kaanSlide" class="carousel slide position-relative" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <!-- ! carousel item 1 - [START] -->
+            <div class="carousel-item active">
+              <div class="row g-0 gx-md-4">
+                <div class="col-md-6 col-lg-4">
+                  <div class="carousel__box text-center text-white p-4">
+                    <span class="text-warning fs-1">
+                      <i class="fa-solid fa-school-flag"></i>
+                    </span>
+                    <h4 class="fw-700 fs-5 lh-lg">Best Students</h4>
+                    <p class="fs-7 lh-lg">Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa
+                      non vestibulum.</p>
+                  </div>
+                </div>
+
+                <div class="d-none d-md-inline-block col-md-6 col-lg-4">
+                  <div class="carousel__box text-center text-white p-4">
+                    <span class="text-warning fs-1">
+                      <i class="fa-solid fa-school-flag"></i>
+                    </span>
+                    <h4 class="fw-700 fs-5 lh-lg">Best Students</h4>
+                    <p class="fs-7 lh-lg">Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa
+                      non vestibulum.</p>
+                  </div>
+                </div>
+
+                <div class="d-none d-lg-inline-block col-lg-4">
+                  <div class="carousel__box text-center text-white p-4">
+                    <span class="text-warning fs-1">
+                      <i class="fa-solid fa-school-flag"></i>
+                    </span>
+                    <h4 class="fw-700 fs-5 lh-lg">Best Students</h4>
+                    <p class="fs-7 lh-lg">Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa
+                      non vestibulum.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ! carousel item 1 - [END^] -->
+
+            <!-- ! carousel item 2 - [START] -->
+            <div class="carousel-item">
+              <div class="row g-0 gx-md-4">
+                <div class="col-md-6 col-lg-4">
+                  <div class="carousel__box text-center text-white p-4">
+                    <span class="text-warning fs-1">
+                      <i class="fa-solid fa-school-flag"></i>
+                    </span>
+                    <h4 class="fw-700 fs-5 lh-lg">Best Networking</h4>
+                    <p class="fs-7 lh-lg">Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa
+                      non vestibulum.</p>
+                  </div>
+                </div>
+
+                <div class="d-none d-md-inline-block col-md-6 col-lg-4">
+                  <div class="carousel__box text-center text-white p-4">
+                    <span class="text-warning fs-1">
+                      <i class="fa-solid fa-school-flag"></i>
+                    </span>
+                    <h4 class="fw-700 fs-5 lh-lg">Best Networking</h4>
+                    <p class="fs-7 lh-lg">Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa
+                      non vestibulum.</p>
+                  </div>
+                </div>
+
+                <div class="d-none d-lg-inline-block col-lg-4">
+                  <div class="carousel__box text-center text-white p-4">
+                    <span class="text-warning fs-1">
+                      <i class="fa-solid fa-school-flag"></i>
+                    </span>
+                    <h4 class="fw-700 fs-5 lh-lg">Best Networking</h4>
+                    <p class="fs-7 lh-lg">Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa
+                      non vestibulum.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ! carousel item 2 - [END^] -->
+
+          </div>
+
+          <button type="button" class="carousel-control-prev end-100" data-bs-target="#kaanSlide" data-bs-slide="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button type="button" class="carousel-control-next start-100" data-bs-target="#kaanSlide"
+            data-bs-slide="next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ! carousel - [END^]-->
+
+  <!-- ! upcoming meetings - [START] -->
+  <section class="mt-0">
+    <div class="container">
+      <div class="row g-0 gy-5">
+        <div class="col-12">
+          <h2 class="text-center text-white fs-4 fw-800">UPCOMING MEETINGS</h2>
+          <hr class="text-white-50 my-4">
+        </div>
+
+        <div class="col-12">
+          <div class="row gx-lg-4 gy-5">
+
+            <div class="col-lg-4">
+              <div class="bg-white text-dark p-5 rounded-20 me-lg-5">
+                <h4 class=" fs-5 fw-600">Meeting Catgories</h4>
+                <hr class="text-black-50 my-4">
+                <div class="d-flex flex-column justify-content-start fw-500">
+                  <a class="mb-2 link link-dark text-decoration-none" href="#">Sed tempus enim leo</a>
+                  <a class="mb-2 link link-dark text-decoration-none" href="#">Aenean molestie quis</a>
+                  <a class="mb-2 link link-dark text-decoration-none" href="#">Cras et metus vestibulum</a>
+                  <a class="mb-2 link link-dark text-decoration-none" href="#">Nam et condimentum</a>
+                  <a class="mb-2 link link-dark text-decoration-none" href="#">Phasellus nec sapien</a>
+                </div>
+                <div class="text-center">
+                  <hr class="text-black-50 my-4">
+                  <button class="btn btn-danger w-100 rounded-pill lh-lg fs-9 fw-500 py-2 px-4">ALL UPCOMING
+                    MEETINGS</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8">
+              <div class="row gy-4 gx-md-4">
+                <div class="col-md-6">
+                  <div class="bg-white text-dark rounded-20 position-relative">
+                    <div class="bg-light p-2 fw-600 rounded-3  position-absolute top-0 start-0 mt-3 ms-3">$22.00</div>
+                    <img class="rounded-top-20" src="./images/meeting-01.jpg" width="100%" height="100%" alt="">
+                    <div class="d-flex p-4">
+                      <h6 class="text-center me-3 text-red fs-8 fw-bold">NOV<span
+                          class="text-dark fs-5 fw-bold lh-lg d-block">10</span></h6>
+                      <div>
+                        <h4 class="mb-3 fs-6 fw-bold ">New Lecturers Meeting</h4>
+                        <p class="fs-7 ">Morbi in libero blandit lectus cursus ullamcorper.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="bg-white text-dark rounded-20 position-relative">
+                    <div class="bg-light p-2 fw-600 rounded-3  position-absolute top-0 start-0 mt-3 ms-3">$22.00</div>
+                    <img class="rounded-top-20" src="./images/meeting-02.jpg" width="100%" height="100%" alt="">
+                    <div class="d-flex p-4">
+                      <h6 class="text-center me-3 text-red fs-8 fw-bold">NOV<span
+                          class="text-dark fs-5 fw-bold lh-lg d-block">24</span></h6>
+                      <div>
+                        <h4 class="mb-3 fs-6 fw-bold ">New Lecturers Meeting</h4>
+                        <p class="fs-7 ">Morbi in libero blandit lectus cursus ullamcorper.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="bg-white text-dark rounded-20 position-relative">
+                    <div class="bg-light p-2 fw-600 rounded-3  position-absolute top-0 start-0 mt-3 ms-3">$22.00</div>
+                    <img class="rounded-top-20" src="./images/meeting-03.jpg" width="100%" height="100%" alt="">
+                    <div class="d-flex p-4">
+                      <h6 class="text-center me-3 text-red fs-8 fw-bold">NOV<span
+                          class="text-dark fs-5 fw-bold lh-lg d-block">26</span></h6>
+                      <div>
+                        <h4 class="mb-3 fs-6 fw-bold ">New Lecturers Meeting</h4>
+                        <p class="fs-7 ">Morbi in libero blandit lectus cursus ullamcorper.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="bg-white text-dark rounded-20 position-relative">
+                    <div class="bg-light p-2 fw-600 rounded-3  position-absolute top-0 start-0 mt-3 ms-3">$22.00</div>
+                    <img class="rounded-top-20" src="./images/meeting-04.jpg" width="100%" height="100%" alt="">
+                    <div class="d-flex p-4">
+                      <h6 class="text-center me-3 text-red fs-8 fw-bold">NOV<span
+                          class="text-dark fs-5 fw-bold lh-lg d-block">30</span></h6>
+                      <div>
+                        <h4 class="mb-3 fs-6 fw-bold ">New Lecturers Meeting</h4>
+                        <p class="fs-7 ">Morbi in libero blandit lectus cursus ullamcorper.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ! upcoming meetings - [END^] -->
+
+  <!-- ! apply meeting - [START]-->
+  <section>
+    <!-- ? bg__meeting arka plan resim ve padding-->
+    <div class="bg__meeting" style="background-image: url('./images/apply-bg.jpg');">
+      <div class="container">
+
+        <div class="row g-0 gy-5">
+          <div class="col-lg-6 align-self-center">
+            <div class="p-5 bg-white-10 text-white mb-4">
+              <h3 class="text-white fs-4 fw-800">APPLY FOR BACHELOR DEGREE</h3>
+              <p class="fs-7 lh-lg my-3">You are allowed to use this edu meeting CSS template for your school or
+                university or business. You can feel free to modify or edit this layout.</p>
+              <button type="button" class="btn btn-danger rounded-pill lh-lg fs-8 fw-600 py-2 px-4">JOIN US
+                NOW!</button>
+            </div>
+
+            <div class="p-5 bg-white-10 text-white">
+              <h3 class="text-white fs-4 fw-800">APPLY FOR BACHELOR DEGREE</h3>
+              <p class="fs-7 lh-lg my-3">You are allowed to use this edu meeting CSS template for your school or
+                university or business. You can feel free to modify or edit this layout.</p>
+              <button type="button" class="btn btn-warning text-white rounded-pill lh-lg fs-8 fw-600 py-2 px-4">JOIN US
+                NOW!</button>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="bg-white text-dark p-5 rounded-20 ms-lg-5">
+              <article>
+                <div id="articleBtn1" class="d-flex align-items-center justify-content-between py-3 mb-2"
+                  style="color: #FFCA2C;">
+                  <span class="fs-5 fw-bold ">About Edu Meeting HTML Template</span>
+                  <span class="fs-4"><i id="rightDown1" class="fa-solid fa-caret-right fa-caret-down"></i></span>
+                </div>
+                <div id="articleTxt1" class="ms-4 fs-7 pb-1 border-bottom border-1 overflow-hidden">
+                  If you want to get the latest collection of HTML CSS templates for your websites, you may visit Too
+                  CSS
+                  website. If you need a working contact form script, please visit our contact page for more info.
+                </div>
+              </article>
+
+              <article>
+                <div id="articleBtn2" class="d-flex align-items-center justify-content-between py-3 mb-2">
+                  <span class="fs-5 fw-bold ">HTML CSS Bootstrap Layout</span>
+                  <span class="fs-4"><i id="rightDown2" class="fa-solid fa-caret-right"></i></span>
+                </div>
+                <div id="articleTxt2" class="ms-4 fs-7 pb-1 border-bottom border-1 overflow-hidden">
+                  <p>Etiam posuere metus orci, vel consectetur elit imperdiet eu. Cras ipsum magna, maximus at semper
+                    sit
+                    amet, eleifend eget neque. Nunc facilisis quam purus, sed vulputate augue interdum vitae. Aliquam a
+                    elit massa.</p>
+                  <p>Nulla malesuada elit lacus, ac ultricies massa varius sed. Etiam eu metus eget nibh consequat
+                    aliquet. Proin fringilla, quam at euismod porttitor, odio odio tempus ligula, ut feugiat ex erat nec
+                    mauris. Donec viverra velit eget lectus sollicitudin tincidunt.</p>
+                </div>
+              </article>
+
+              <article>
+                <div id="articleBtn3" class="d-flex align-items-center justify-content-between py-3 mb-2">
+                  <span class="fs-5 fw-bold ">Please tell your friends</span>
+                  <span class="fs-4"><i id="rightDown3" class="fa-solid fa-caret-right"></i></span>
+                </div>
+                <div id="articleTxt3" class="ms-4 fs-7 pb-1 border-bottom border-1 overflow-hidden">
+                  <p>Etiam posuere metus orci, vel consectetur elit imperdiet eu. Cras ipsum magna, maximus at semper
+                    sit
+                    amet, eleifend eget neque. Nunc facilisis quam purus, sed vulputate augue interdum vitae. Aliquam a
+                    elit massa.</p>
+                  <p>Nulla malesuada elit lacus, ac ultricies massa varius sed. Etiam eu metus eget nibh consequat
+                    aliquet. Proin fringilla, quam at euismod porttitor, odio odio tempus ligula, ut feugiat ex erat nec
+                    mauris. Donec viverra velit eget lectus sollicitudin tincidunt.</p>
+                </div>
+              </article>
+
+              <article>
+                <div id="articleBtn4" class="d-flex align-items-center justify-content-between py-3 mb-2">
+                  <span class="fs-5 fw-bold ">Share this to your colleagues</span>
+                  <span class="fs-4"><i id="rightDown4" class="fa-solid fa-caret-right"></i></span>
+                </div>
+                <div id="articleTxt4" class="ms-4 fs-7 pb-1 border-bottom border-1 overflow-hidden">
+                  <p>Etiam posuere metus orci, vel consectetur elit imperdiet eu. Cras ipsum magna, maximus at semper
+                    sit
+                    amet, eleifend eget neque. Nunc facilisis quam purus, sed vulputate augue interdum vitae. Aliquam a
+                    elit massa.</p>
+                  <p>Nulla malesuada elit lacus, ac ultricies massa varius sed. Etiam eu metus eget nibh consequat
+                    aliquet. Proin fringilla, quam at euismod porttitor, odio odio tempus ligula, ut feugiat ex erat nec
+                    mauris. Donec viverra velit eget lectus sollicitudin tincidunt.</p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ! apply meeting - [END^]-->
+
+  <!-- ! upcoming meetings SLIDER - [START] -->
+  <section>
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-12">
+          <h2 class="text-white fs-4 fw-800">UPCOMING MEETINGS</h2>
+          <hr class="text-white-50 my-4">
+        </div>
+        <div class="col-12">
+
+
+          <div id="kaanSlide2" class="carousel slide position-relative" data-bs-ride="carousel">
+
+            <ol class="carousel-indicators">
+              <li data-bs-target="#kaanSlide2" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#kaanSlide2" data-bs-slide-to="1"></li>
+              <li data-bs-target="#kaanSlide2" data-bs-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+              <!-- ! carousel item 1 - [START] -->
+              <div class="carousel-item active">
+                <div class="row gy-4 gx-md-4">
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-01.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-02.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-03.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-01.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+              <!-- ! carousel item 1 - [END^] -->
+
+              <!-- ! carousel item 2 - [START] -->
+              <div class="carousel-item">
+                <div class="row gy-4 gx-md-4">
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-03.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-02.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-01.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-03.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ! carousel item 2 - [END^] -->
+
+              <!-- ! carousel item 3 - [START] -->
+              <div class="carousel-item">
+                <div class="row gy-4 gx-md-4">
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-02.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-01.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-03.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3">
+                    <div class="bg-white text-center">
+                      <img src="./images/course-02.jpg" width="100%" alt="">
+                      <div class="p-4">
+                        <h4 class="fs-6 fw-600">Web Design Templates at your finger tips</h4>
+                      </div>
+                      <div class="p-4 border-top border-1 d-flex align-items-center justify-content-between">
+                        <span class="text-warning fs-7">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="fw-600 text-red">
+                          $180
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+              <!-- ! carousel item 3 - [END^] -->
+
+            </div>
+
+            <button type="button" class="carousel-control-prev end-100 d-none d-lg-inline-block"
+              data-bs-target="#kaanSlide2" data-bs-slide="prev">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button type="button" class="carousel-control-next start-100 d-none d-lg-inline-block"
+              data-bs-target="#kaanSlide2" data-bs-slide="next">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- ! upcoming meetings SLIDER - [END^] -->
+
+  <!-- ! about university - [START] -->
+  <section>
+    <div class="bg__meeting" style="background-image: url('./images/facts-bg.jpg');">
+      <div class="container">
+        <div class="row g-0 gy-5">
+
+          <div class="col-lg-6">
+            <div class="text-white">
+
+              <h2 class="fw-800 lh-base mb-5 text-center text-lg-start">A Few Facts About Our <br> University</h2>
+              <div class="row gy-4 gx-lg-4">
+
+                <div class="col-lg-6">
+                  <div class="bg-white-10 p-4 text-center rounded-20">
+                    <span class="fs-1 fw-bold text-warning mb-1">94%</span>
+                    <span class="d-block fs-6 fw-500 ">Succesed Students</span>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="bg-white-10 p-4 text-center rounded-20 mt-lg-4">
+                    <span class="fs-1 fw-bold text-warning mb-1">2345</span>
+                    <span class="d-block fs-6 fw-500 ">New Students</span>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="bg-white-10 p-4 text-center rounded-20">
+                    <span class="fs-1 fw-bold text-warning mb-1">126</span>
+                    <span class="d-block fs-6 fw-500 ">Current Teachers</span>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="bg-white-10 p-4 text-center rounded-20 mt-lg-4">
+                    <span class="fs-1 fw-bold text-warning mb-1">32</span>
+                    <span class="d-block fs-6 fw-500 ">Awards</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 align-self-center">
+            <div class="video__item position-relative mx-auto mx-lg-0 ms-lg-auto">
+              <a href="https://www.youtube.com/watch?v=TSehVGQqyIw" target="_blank">
+                <img class="rounded-20" src="./images/video-item-bg.jpg" width="100%" height="100%" alt="">
+                <span class="position-absolute top-50 start-50 translate-middle text-white fs-1"><i
+                    class="fa-regular fa-circle-play fa-2x"></i></span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ! about university - [END^] -->
+
+  <!-- ! contact - [START]-->
+  <section>
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-lg-9 align-self-center">
+          <div class="bg-white text-dark rounded-20 p-5">
+            <div class="row gy-4 gx-lg-4">
+              <div class="col-12">
+                <h2 class="fs-5 fw-800">LET'S GET IN TOUCH</h2>
+                <hr class="mt-4 text-black-50">
+              </div>
+              <div class="col-lg-4">
+                <input type="text" class="form-control fs-8 fw-600 rounded-pill" placeholder="YOUR NAME...*">
+              </div>
+              <div class="col-lg-4">
+                <input type="email" class="form-control fs-8 fw-600 rounded-pill" placeholder="YOUR EMANIL...*">
+              </div>
+              <div class="col-lg-4">
+                <input type="text" class="form-control fs-8 fw-600 rounded-pill" placeholder="SUBJECT...*">
+              </div>
+
+              <div class="col-12">
+                <textarea class="form-control fs-8 fw-600" name="" id="" cols="30" rows="10"
+                  placeholder="YOUR MESSAGE..."></textarea>
+              </div>
+              <div class="col-12">
+                <button type="button" class="btn btn-danger rounded-pill lh-lg fs-9 fw-600 py-2 px-4">SEND MESSAGE NOW!
+                  </butto>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="bg-red text-white rounded-20 p-5">
+            <div class="border-bottom border-1 border-white-30 py-4">
+              <h6 class="fs-7 fw-bold">Phone Number</h6>
+              <span class="fs-5 fw-bold text-break">010-020-0340</span>
+            </div>
+
+            <div class="border-bottom border-1 border-white-30 py-4">
+              <h6 class="fs-7 fw-bold">Email Address</h6>
+              <span class="fs-5 fw-bold text-break">info@meeting.edu</span>
+            </div>
+
+            <div class="border-bottom border-1 border-white-30 py-4">
+              <h6 class="fs-7 fw-bold">Street Address</h6>
+              <span class="fs-5 fw-bold text-break">Rio de Janeiro - RJ, 22795-008, Brazil</span>
+            </div>
+
+            <div class="border-bottom border-1 border-white-30 py-4">
+              <h6 class="fs-7 fw-bold">Website URL</h6>
+              <span class="fs-5 fw-bold text-break">www.meeting.edu</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ! contact - [END^]-->
+
+  <!-- ! footer - [START] -->
+  <footer>
+    <div class="border-top border-1 border-white-30 text-white lh-base fs-8 fw-500 text-center p-5">
+      COPYRIGHT © 2022 EDU MEETING CO., LTD. ALL RIGHTS RESERVED. <br>
+      DESIGN: <a class="link link-warning text-decoration-none" href="#">TEMPLATEMO</a>
+      and
+      DEVELOPER: <span class="text-warning">KAAN</span>
+    </div>
+  </footer>
+  <!-- ! footer - [END^] -->
+
+  <script type="text/JavaScript">
+    let articleTxt1 = document.querySelector('#articleTxt1');
+    let isTrue1 = true;
+    
+    document.querySelector('#articleBtn1').addEventListener('click', ()=>{
+      if(!isTrue1){
+        document.querySelector('#articleBtn1').style.color = "#FFCA2C";
+        document.querySelector('#rightDown1').classList.toggle('fa-caret-down');
+        
+        articleTxt1.style.height="auto";
+        isTrue1=true;
+      } else {
+        document.querySelector('#articleBtn1').style.color = "#000";
+        document.querySelector('#rightDown1').classList.toggle('fa-caret-down');
+        
+        articleTxt1.style.height="13px";
+        isTrue1=false;
+      }
+    });
+
+    let articleTxt2 = document.querySelector('#articleTxt2');
+    let isTrue2 = false;
+    
+    document.querySelector('#articleBtn2').addEventListener('click', ()=>{
+      if(!isTrue2){
+        document.querySelector('#articleBtn2').style.color = "#FFCA2C";
+        document.querySelector('#rightDown2').classList.toggle('fa-caret-down');
+        
+        articleTxt2.style.height="auto";
+        isTrue2=true;
+      } else {
+        document.querySelector('#articleBtn2').style.color = "#000";
+        document.querySelector('#rightDown2').classList.toggle('fa-caret-down');
+        
+        articleTxt2.style.height="13px";
+        isTrue2=false;
+      }
+    });
+
+    let articleTxt3 = document.querySelector('#articleTxt3');
+    let isTrue3 = false;
+    
+    document.querySelector('#articleBtn3').addEventListener('click', ()=>{
+      if(!isTrue3){
+        document.querySelector('#articleBtn3').style.color = "#FFCA2C";
+        document.querySelector('#rightDown3').classList.toggle('fa-caret-down');
+        
+        articleTxt3.style.height="auto";
+        isTrue3=true;
+      } else {
+        document.querySelector('#articleBtn3').style.color = "#000";
+        document.querySelector('#rightDown3').classList.toggle('fa-caret-down');
+        
+        articleTxt3.style.height="13px";
+        isTrue3=false;
+      }
+    });
+
+    let articleTxt4 = document.querySelector('#articleTxt4');
+    let isTrue4 = false;
+    
+    document.querySelector('#articleBtn4').addEventListener('click', ()=>{
+      if(!isTrue4){
+        document.querySelector('#articleBtn4').style.color = "#FFCA2C";
+        document.querySelector('#rightDown4').classList.toggle('fa-caret-down');
+        
+        articleTxt4.style.height="auto";
+        isTrue4=true;
+      } else {
+        document.querySelector('#articleBtn4').style.color = "#000";
+        document.querySelector('#rightDown4').classList.toggle('fa-caret-down');
+        
+        articleTxt4.style.height="13px";
+        isTrue4=false;
+      }
+    });
+
+  </script>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
