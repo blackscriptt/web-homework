@@ -45,12 +45,46 @@ header{
 
 header .logo{
     background: rgba(255, 255, 255, 0.116);
-   
 }
 
-header img.avatar{
-    border: 3px solid rgba(255, 255, 255, 0.2);
+header .avatar{
+    margin:0 auto;
+    background: var(--dark);
+    width: 70px;
+    height: 70px;
+    padding: 3px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+header .avatar::before{
+    content: '';
+    background-image:linear-gradient(rgb(31, 255, 132),rgb(0, 132, 255));
+    width: 50px;
+    height: 140%;
+    position: absolute;
+    animation: kaan 2s linear infinite;
+}
+header .avatar::after{
+    content: '';
+    position: absolute;
+    background: var(--dark);
+    inset: 2px;
+    border-radius: 50%;
+}
+@keyframes kaan{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+header .avatar img{
     object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
 }
 
 header .social__media{
