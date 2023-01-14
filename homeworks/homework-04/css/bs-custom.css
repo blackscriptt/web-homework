@@ -21,8 +21,9 @@
 
 
 
-#myCarousel2 .carousel-inner, #myCarousel2 .carousel-item{
-    overflow-y: visible!important;
+#myCarousel2{
+    position: relative;
+    top: 100px;
 }
 
 
