@@ -251,11 +251,28 @@ article:hover{
     transform: scale(1.2);
     z-index: 999999;
 }
+article:hover::before{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(#00ccff, #d47500);
+    width: 200px;
+    height: 200%;
+    animation: kaan 4s linear infinite;
+
+}
+article:hover::after{
+    content: '';
+    position: absolute;
+    background: #000;
+    inset: 4px;
+    border-radius: 4px;
+}
 article img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: .3;
+    z-index: 1;
 
     position: absolute;
     top: 0;
