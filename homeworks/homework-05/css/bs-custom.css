@@ -1,0 +1,89 @@
+@import url('./main-style.css');
+
+@media screen and (min-width: 992px){
+    .container{
+        width: 1110px!important;
+    }
+}
+
+.navbar-dark .nav-link{
+    color: var(--white)!important;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px!important;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+}
+.navbar-dark .nav-link:hover{
+    color: black!important;
+}
+
+
+
+#myCarousel2{
+    position: relative;
+    top: 100px;
+}
+
+
+#myCarousel1 .carousel-item{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url('../images/hero_1.jpg');
+    position: relative;
+}
+
+#myCarousel1 .carousel-control-prev,
+#myCarousel1 .carousel-control-next{
+    opacity: 1!important;
+    position: absolute;
+    top: 50%;
+    height: 70px;
+    width: 70px;
+    font-size: 2rem;
+    padding:0!important;
+    background-color: #fff!important;
+    color: #000!important;
+    transition: all .6s;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myCarousel1 .carousel-control-prev:hover,
+#myCarousel1 .carousel-control-next:hover{
+    background: var(--orange)!important;
+}
+
+#myCarousel1 .carousel-indicators li{
+    width: 1.2rem!important;
+    height: 4px!important;
+    opacity: 1!important;
+}
+#myCarousel1 .carousel-indicators li.active{
+    background-color: var(--orange)!important;
+}
+
+
+
+
+
+#myCarousel2 .carousel-control-prev,
+#myCarousel2 .carousel-control-next{
+    opacity: 1!important;
+    position: absolute;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    padding:0!important;
+    background-color: #fff!important;
+    
+    transition: all .6s;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0,0,0);
+    font-size: 1.5rem;
+}

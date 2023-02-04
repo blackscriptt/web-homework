@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: #262626;
+}
+.t-bold{
+    font-weight: bold;
+}
+.alt-p{
+    color: rgba(255,255,255,.7);
+}
+.bc-cyan{
+    background: rgb(36, 182, 182);
+    color: rgb(255, 255, 255)!important;
+    transition: all .6s;
+}
+.bc-cyan:hover{
+    background: none;
+    outline: 2px solid cyan;
+}
+.header{
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* NAV START */
+.navbar__logo{
+    font-weight: bold;
+    color: rgba(255,255,255,.8);
+    transition: all .6s;
+}
+.navbar__logo:hover{
+    color: rgba(255,255,255,1);
+    transform: scale(1.1);
+}
+.navbar-nav li a{
+    color: rgba(255,255,255,1);
+    text-transform: capitalize;
+    font-size: 15px;
+    transition: all .6s;
+}
+.navbar-nav li a:hover{
+    color: cyan;
+}
+.active{
+    color: cyan!important;
+    opacity: .6;
+}
+/* NAV END */
+
+/* INDEX START */
+
+#index__header{
+    height: 90vh;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+    background-image: linear-gradient(to top, rgba(36, 182, 182, 0.6), rgba(36, 182, 182, .2)), url('../image/sirket.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.header__text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    backdrop-filter: blur(10px);
+    transition: all 1s;
+    cursor: pointer;
+}
+.header__text:hover{
+    top: 40%;
+}
+
+/* INDEX END */
+
+/* HABERLER START */
+
+.card{
+    transition: all .6s;
+}
+.card:hover{
+    transform: scale(1.06);
+}
+/* HABERLER END */
+
+/* İLETİŞİM START */
+.iletisim{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.iletisim input,.iletisim textarea{
+    outline: none;
+    border-radius: 7px;
+    padding: 3px 6px;
+    resize: none;
+}
+/* İLETİŞİM END */
