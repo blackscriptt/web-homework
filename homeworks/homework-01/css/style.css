@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #F7F8FA;
+}
+
+/* ? tüm img ler kutuya sığmazsa otomatik kendini boyutlandırıp kendini kutuya göre sığdıracaktır */
+img{
+    object-fit: cover;
+}
+
+/* * =================================================== */
+
+
+/* ! transition - [START] */
+.transition-6s{
+    transition: all .6s;
+}
+/* ! transition - [END^] */
+
+
+/* ! transform - [START]  */
+.big-2:hover{
+    transform: scale(1.2);
+}
+/* ! transform - [END^]  */
+
+
+/* ! navbar - [START] */
+.navbar-brand{
+    letter-spacing: 5px;
+}
+/* ! navbar - [END] */
+
+
+/* ! font size - [START] */
+.fs-7{
+    font-size: .9rem!important;
+
+}
+.fs-8{
+    font-size: .8rem!important;
+}
+.fs-9{
+    font-size: .7rem!important;
+}
+/* ! font size - [END^] */
+
+
+/* ! hover - [START] */
+/* ? Hover olunca yeşil */
+.hv-success:hover{
+    color: green;
+}
+/* ! hover - [END^] */
+
+
+/* ! linear - [START] */
+.linear-dark{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0), rgba(0,0,0,.8));
+}
+.linear-kaan{
+    background-image: linear-gradient( 68.2deg, rgba(59,186,255,1) 0.3%, rgba(209,98,247,1) 90.3% );
+}
+.linear-chat{
+    background-image: linear-gradient( 0deg, rgba(185,176,236,1) 4.8%, rgba(193,230,247,1) 77.1% );
+}
+/* ! linear - [END^] */
+
+
+/* ! help team - [START] */
+.help__team{
+    cursor: pointer;
+}
+.help__chat__box{
+    display: none;
+}
+
+.help__chat::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.help__chat::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.help__chat::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #262626;
+}
+/* ! help team - [END^] */
+
+
+.font-opensans{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+
+/* ! rounded - [START] */
+.rounded-25{
+    border-radius: 25px;
+}
+/* ! rounded - [END^] */
+
+
+/* ! yan menu - [START] */
+.yan__menu__link{
+    transition: all .6s;
+}
+.yan__menu div:hover .yan__menu__link{
+    margin-left: 15px;
+    opacity:.7;
+    animation: kaan .1s 1s;
+}
+
+/* ? yan menu titreşim */
+@keyframes kaan{
+    0%{margin-left:-16px;}
+    50%{margin-left:15px;}
+    100%{margin-left:21px;}
+}
+/* ! yan menu - [END^] */

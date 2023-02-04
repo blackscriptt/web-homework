@@ -1,0 +1,1160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- ! Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- ! Required link tags -->
+    <!-- TODO: Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="icon" href="./image/main-logo.png" sizes="32x32">
+
+    <title>Svart - Geleceğe adım adım...</title>
+</head>
+
+<body>
+
+    <!-- ! Nav - [START] -->
+    <!-- ? px-0 responsive -->
+    <nav
+        class="navbar navbar-expand-lg navbar-dark border-bottom border-white-50 shadow-sm py-3 px-0 position-fixed top-0 start-0 end-0 nav-lg-white">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img class="d-none d-lg-block" src="./image/white-logo.png" alt="">
+                <img class="d-lg-none" src="./image/black-logo.png" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-5 text-uppercase fs-7">
+                    <li class="nav-item mx-lg-3"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item mx-lg-3"><a class="nav-link" href="#">Category</a></li>
+                    <li class="nav-item mx-lg-3"><a class="nav-link" href="#">Lıstıng</a></li>
+                    <li class="nav-item mx-lg-3"><a class="nav-link" href="#">Contact us</a></li>
+                </ul>
+
+                <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                <button type="button"
+                    class="btn btn-light border-0 transition-06s hover-lacivert-main rounded-4 lh-sm fs-7 py-02 px-4 icon-text-center">
+                    <i class="fs-4 text-gray bi bi-patch-plus-fill me-3 "></i> Add Your Listing
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- ! Nav - [END^] -->
+
+
+    <!-- ! header - [START]-->
+    <header class="position-relative">
+        <div class="container-fluid position-absolute top-50 start-50 translate-middle">
+            <div class="container text-light">
+                <div class="row gy-5">
+                    <!-- ! header text - [START]-->
+                    <div class="col-12">
+                        <div class="text-center">
+                            <h6 class="fw-500 lh-lg">OVER 36,500+ ACTIVE LISTINGS</h6>
+                            <h2 class="fw-800 fs-1">Find Nearby Places & Things</h2>
+                        </div>
+                    </div>
+                    <!-- ! header text - [END^]-->
+
+                    <!-- ! header form - [START]-->
+                    <div class="col-12 ">
+                        <div class="row rounded-4 ps-lg-4 bg-white">
+                            <div class="col-lg-9">
+                                <div class="row py-3 row-cols-1 row-cols-lg-3">
+
+                                    <div class="col border-end border-black">
+                                        <div class="position-relative">
+                                            <select class="form-control form-reset" name="" id="">
+                                                <option value="">All Areas</option>
+                                                <option value="">New Village</option>
+                                                <option value="">Old Town</option>
+                                                <option value="">Modern City</option>
+                                            </select>
+                                            <!-- ? select icon -->
+                                            <span class="position-absolute top-50 translate-middle-y text-gray"
+                                                style="right: 25px;"><i class="bi bi-caret-down-fill"></i></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col border-end border-black">
+                                        <input class="form-control form-reset" type="text"
+                                            placeholder="Enter a location">
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="position-relative">
+                                            <select class="form-control form-reset" name="" id="">
+                                                <option value="">Price Range</option>
+                                                <option value="">$100 - $250</option>
+                                                <option value="">$250 - $500</option>
+                                                <option value="">$500 - $1,000</option>
+                                                <option value="">$1,000 or more</option>
+                                            </select>
+                                            <!-- ? select icon -->
+                                            <span class="position-absolute top-50 translate-middle-y text-gray"
+                                                style="right: 25px;"><i class="bi bi-caret-down-fill"></i></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 px-0">
+                                <div class="d-grid h-100">
+                                    <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                                    <a href="#" class="btn bg-gray text-white rounded-end h-100 icon-text-center fs-7">
+                                        <span class="d-inline-block bg-dark me-3 rounded-circle bg-white text-gray fs-5"
+                                            style="width: 40px; height: 40px;line-height: 40px;"><i
+                                                class="bi bi-search-heart"></i></span>
+                                        Search Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ! header form - [END^]-->
+
+                    <!-- ! header icons - [START]-->
+                    <div class="col-12 d-none d-lg-block">
+                        <div class="row g-3 px-lg-5 justify-content-center">
+                            <div class="col-2">
+                                <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                                <a href="#"
+                                    class="d-inline hover-lacivert icon-text-center flex-column text-white text-decoration-none">
+                                    <span
+                                        class="d-inline-block transition-06s lacivert-hover-item fs-2 bg-white text-gray text-center rounded-circle mb-2"
+                                        style="width: 60px; height: 60px;line-height: 60px;"><i
+                                            class="bi bi-house "></i></span>
+                                    Apartments
+                                </a>
+                            </div>
+
+                            <div class="col-2">
+                                <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                                <a href="#"
+                                    class="d-inline hover-lacivert icon-text-center flex-column text-white text-decoration-none">
+                                    <span
+                                        class="d-inline-block transition-06s lacivert-hover-item fs-2 bg-white text-gray text-center rounded-circle mb-2"
+                                        style="width: 60px; height: 60px;line-height: 60px;"><i
+                                            class="bi bi-cup-hot"></i></span>
+                                    Food & Life
+                                </a>
+                            </div>
+
+                            <div class="col-2">
+                                <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                                <a href="#"
+                                    class="d-inline hover-lacivert icon-text-center flex-column text-white text-decoration-none">
+                                    <span
+                                        class="d-inline-block transition-06s lacivert-hover-item fs-2 bg-white text-gray text-center rounded-circle mb-2"
+                                        style="width: 60px; height: 60px;line-height: 60px;"><i
+                                            class="bi bi-car-front"></i></span>
+                                    Cars
+                                </a>
+                            </div>
+
+                            <div class="col-2">
+                                <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                                <a href="#"
+                                    class="d-inline hover-lacivert icon-text-center flex-column text-white text-decoration-none">
+                                    <span
+                                        class="d-inline-block transition-06s lacivert-hover-item fs-2 bg-white text-gray text-center rounded-circle mb-2"
+                                        style="width: 60px; height: 60px;line-height: 60px;"><i
+                                            class="bi bi-bag"></i></span>
+                                    Shopping
+                                </a>
+                            </div>
+
+                            <div class="col-2">
+                                <a href="#"
+                                    class="d-inline hover-lacivert icon-text-center flex-column text-white text-decoration-none">
+                                    <span
+                                        class="d-inline-block transition-06s lacivert-hover-item fs-2 bg-white text-gray text-center rounded-circle mb-2"
+                                        style="width: 60px; height: 60px;line-height: 60px;"><i
+                                            class="bi bi-airplane-engines"></i></span>
+                                    Traveling
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ! header icons - [END^]-->
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- ! header - [END^]-->
+
+
+    <!-- ! categories - [START]-->
+    <section>
+        <div class="container">
+            <div class="row gy-5">
+
+                <!-- ! categories header - [START] -->
+                <div class="col-12">
+                    <div class="text-center">
+                        <h2 class="fw-800">Popular Categories</h2>
+                        <h6 class="text-black-50 mt-4 fs-7">CHECK THEM OUT</h6>
+                    </div>
+                </div>
+                <!-- ! categories header - [END^] -->
+
+                <!-- ! categories button, description - [START] -->
+                <div class="col-12">
+
+                    <div class="bg-lacivert rounded-4">
+                        <div class="row">
+                            <!-- ! categories button - [START] -->
+                            <div class="col-lg-3">
+                                <div class="row g-1 g-lg-0">
+                                    <div class="col">
+                                        <div class="d-grid">
+                                            <!-- 
+                                        ? categories-btn    => border-bottom (row ile yapıp g-1 de verilebilir...)
+                                        ? btn-reset         => border, outline, box-shadow: none
+                                        ? icon-text-center  => flex, align-items, justify-content : center
+                                        ? btn-reset         => border, outline, box-shadow
+                                             -->
+                                            <button type="button"
+                                                class="categories-btn-1 categories-btn btn btn-reset rounded-0 bg-gray text-white p-4 h-100 icon-text-center justify-content-lg-start btn-active">
+
+                                                <span class="d-inline-block fs-2 bg-white text-gray rounded-circle"
+                                                    style="width: 60px; height: 60px;line-height: 60px;"><i
+                                                        class="bi bi-house "></i></span>
+                                                <span class="ms-3 d-none d-lg-inline-block">Apartments</span>
+
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="d-grid">
+                                            <!-- 
+                                        ? categories-btn    => border-bottom (row ile yapıp g-1 de verilebilir...)
+                                        ? btn-reset         => border, outline, box-shadow: none
+                                        ? icon-text-center  => flex, align-items, justify-content : center
+                                        ? btn-reset         => border, outline, box-shadow
+                                             -->
+                                            <button type="button"
+                                                class="categories-btn-2 categories-btn btn btn-reset rounded-0 bg-gray text-white p-4 h-100 icon-text-center justify-content-lg-start">
+
+                                                <span class="d-inline-block fs-2 bg-white text-gray rounded-circle"
+                                                    style="width: 60px; height: 60px;line-height: 60px;"><i
+                                                        class="bi bi-cup-hot "></i></span>
+                                                <span class="ms-3 d-none d-lg-inline-block">Food & Life</span>
+
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="d-grid">
+                                            <!-- 
+                                        ? categories-btn    => border-bottom (row ile yapıp g-1 de verilebilir...)
+                                        ? btn-reset         => border, outline, box-shadow: none
+                                        ? icon-text-center  => flex, align-items, justify-content : center
+                                        ? btn-reset         => border, outline, box-shadow
+                                             -->
+                                            <button type="button"
+                                                class="categories-btn-3 categories-btn btn btn-reset rounded-0 bg-gray text-white p-4 h-100 icon-text-center justify-content-lg-start">
+
+                                                <span class="d-inline-block fs-2 bg-white text-gray rounded-circle"
+                                                    style="width: 60px; height: 60px;line-height: 60px;"><i
+                                                        class="bi bi-car-front "></i></span>
+                                                <span class="ms-3 d-none d-lg-inline-block">Cars</span>
+
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="d-grid">
+                                            <!-- 
+                                        ? categories-btn    => border-bottom (row ile yapıp g-1 de verilebilir...)
+                                        ? btn-reset         => border, outline, box-shadow: none
+                                        ? icon-text-center  => flex, align-items, justify-content : center
+                                        ? btn-reset         => border, outline, box-shadow
+                                             -->
+                                            <button type="button"
+                                                class="categories-btn-4 categories-btn btn btn-reset rounded-0 bg-gray text-white p-4 h-100 icon-text-center justify-content-lg-start">
+
+                                                <span class="d-inline-block fs-2 bg-white text-gray rounded-circle"
+                                                    style="width: 60px; height: 60px;line-height: 60px;"><i
+                                                        class="bi bi-bag "></i></span>
+                                                <span class="ms-3 d-none d-lg-inline-block">Shopping</span>
+
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="d-grid">
+                                            <!-- 
+                                        ? categories-btn    => border-bottom (row ile yapıp g-1 de verilebilir...)
+                                        ? btn-reset         => border, outline, box-shadow: none
+                                        ? icon-text-center  => flex, align-items, justify-content : center
+                                        ? btn-reset         => border, outline, box-shadow
+                                             -->
+                                            <button type="button"
+                                                class="categories-btn-5 btn btn-reset rounded-0 bg-gray text-white p-4 h-100 icon-text-center justify-content-lg-start">
+
+                                                <span class="d-inline-block fs-2 bg-white text-gray rounded-circle"
+                                                    style="width: 60px; height: 60px;line-height: 60px;"><i
+                                                        class="bi bi-airplane-engines "></i></span>
+                                                <span class="ms-3 d-none d-lg-inline-block">Traveling</span>
+
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- ! categories button - [END^] -->
+
+                            <!-- ! categories description - [START] -->
+                            <div class="col-lg-9">
+                                <div class="p-5 text-white h-100">
+
+                                    <ul class="h-100 m-0 p-0">
+                                        <!-- 
+                                            ? categories-li-x => display, position, bottom, left, opacity, transition
+                                        -->
+                                        <li class="categories-li-1 h-100 li-active">
+                                            <div class="row h-100">
+                                                <!-- ! text -->
+                                                <div class="col-md-6 align-self-center">
+                                                    <div class="pe-md-5">
+                                                        <h5 class="fw-500 mb-4">One Of The Most Trending Stuffs Right
+                                                            Now!</h5>
+                                                        <p class="fs-7 lh-lg text-white-50 mb-3">Plot Listing is a
+                                                            responsive Bootstrap 5 website template that included 4
+                                                            different HTML pages. This template is provided by
+                                                            TemplateMo website. You can apply this layout for your
+                                                            static or dynamic CMS websites.</p>
+                                                        <div class="d-grid">
+                                                            <a class="btn btn-light" href="#">Discover More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- ! img -->
+                                                <div class="col-md-6">
+                                                    <div class="text-center text-md-end mt-4 mt-md-0 h-100">
+                                                        <img class="rounded-4" width="85%" height="100%"
+                                                            src="./image/tabs-image-01.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- 
+                                            ? categories-li-x => display, position, bottom, left, opacity, transition
+                                        -->
+                                        <li class="categories-li-2 h-100 ">
+                                            <div class="row g-0 h-100">
+                                                <!-- ! text -->
+                                                <div class="col-md-6 align-self-center">
+                                                    <div class="pe-md-5">
+                                                        <h5 class="fw-500 mb-4">Food and Lifestyle category is here</h5>
+                                                        <p class="fs-7 lh-lg text-white-50 mb-3">You can feel free to
+                                                            download, edit and apply this template for your website.
+                                                            Please tell your friends about TemplateMo website.</p>
+                                                        <div class="d-grid">
+                                                            <a class="btn btn-light" href="#">Discover More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- ! img -->
+                                                <div class="col-md-6">
+                                                    <div class="text-center text-md-end mt-4 mt-md-0 h-100">
+                                                        <img class="rounded-4" width="85%" height="100%"
+                                                            src="./image/tabs-image-02.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- 
+                                            ? categories-li-x => display, position, bottom, left, opacity, transition
+                                        -->
+                                        <li class="categories-li-3 h-100">
+                                            <div class="row h-100">
+                                                <!-- ! text -->
+                                                <div class="col-md-6 align-self-center">
+                                                    <div class="pe-md-5">
+                                                        <h5 class="fw-500 mb-4">Best car rentals for your trips!</h5>
+                                                        <p class="fs-7 lh-lg text-white-50 mb-3">Did you know? You can
+                                                            get the best free HTML templates on Too CSS blog. Visit the
+                                                            blog pages and explore fresh and latest website templates.
+                                                        </p>
+                                                        <div class="d-grid">
+                                                            <a class="btn btn-light" href="#">Discover More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- ! img -->
+                                                <div class="col-md-6">
+                                                    <div class="text-center text-md-end mt-4 mt-md-0 h-1000">
+                                                        <img class="rounded-4" width="85%" height="100%"
+                                                            src="./image/tabs-image-03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- 
+                                            ? categories-li-x => display, position, bottom, left, opacity, transition
+                                        -->
+                                        <li class="categories-li-4 h-100">
+                                            <div class="row h-100">
+                                                <!-- ! text -->
+                                                <div class="col-md-6 align-self-center">
+                                                    <div class="pe-md-5">
+                                                        <h5 class="fw-500 mb-4">Shopping List: Images from Unsplash</h5>
+                                                        <p class="fs-7 lh-lg text-white-50 mb-3">Image credits go to
+                                                            Unsplash website that provides free stock photos for anyone.
+                                                            Images used in this Plot Listing template are from Unsplash.
+                                                        </p>
+                                                        <div class="d-grid">
+                                                            <a class="btn btn-light" href="#">Discover More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- ! img -->
+                                                <div class="col-md-6">
+                                                    <div class="text-center text-md-end mt-4 mt-md-0 h-100">
+                                                        <img class="rounded-4" width="85%" height="100%"
+                                                            src="./image/tabs-image-04.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <!-- 
+                                            ? categories-li-x => display, position, bottom, left, opacity, transition
+                                        -->
+                                        <li class="categories-li-5 h-100">
+                                            <div class="row h-100">
+                                                <!-- ! text -->
+                                                <div class="col-md-6 align-self-center">
+                                                    <div class="pe-md-5">
+                                                        <h5 class="fw-500 mb-4">Information and Safety Tips for
+                                                            Traveling</h5>
+                                                        <p class="fs-7 lh-lg text-white-50 mb-3">You are allowed to use
+                                                            this template for your commercial websites. You are NOT
+                                                            allowed to redistribute this template ZIP file on any Free
+                                                            CSS collection websites.</p>
+                                                        <div class="d-grid">
+                                                            <a class="btn btn-light" href="#">Discover More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- ! img -->
+                                                <div class="col-md-6">
+                                                    <div class="text-center text-md-end mt-4 mt-md-0 h-100">
+                                                        <img class="rounded-4" width="85%" height="100%"
+                                                            src="./image/tabs-image-05.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- ! categories description - [END^] -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ! categories button, description - [END^] -->
+
+            </div>
+        </div>
+    </section>
+    <!-- ! categories - [END^]-->
+
+
+    <!-- ! recent listing - [START] -->
+    <section>
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h2 class="fw-800">Recent Listing</h2>
+                        <h6 class="text-black-50 mt-4 fs-7">CHECK THEM OUT</h6>
+                    </div>
+                </div>
+
+                <div class="col-12">
+
+                    <div id="kaanCarousel" class="carousel slide pb-4 position-relative" data-bs-ride="carousel">
+                        <ol class="carousel-indicators position-absolute top-100">
+                            <li data-bs-target="#kaanCarousel" data-bs-slide-to="0" class="bg-secondary w-auto p-1  rounded-circle active"></li>
+                            <li data-bs-target="#kaanCarousel" data-bs-slide-to="1" class="bg-secondary w-auto p-1  rounded-circle"></li>
+                        </ol>
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+
+                                <div class="row gy-5">
+
+                                    <div class="col-12">
+                                        <div class="row g-0 ">
+                                            <!-- ? img start -->
+                                            <div class="col-md-5">
+                                                <img class="w-100 h-100 rounded-start-1" src="./image/listing-01.jpg"
+                                                    alt="">
+                                            </div>
+                                            <!-- ? img end -->
+
+                                            <!-- ? decription start -->
+                                            <div class="col-md-7 bg-light rounded-end-1 p-5">
+                                                <!-- ? star and message count start -->
+                                                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
+                                                    <div class="order-lg-2">
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <span class="ms-2">(15) Reviews</span>
+                                                    </div>
+                                                    <h4 class="order-lg-1 fw-800">1. First Apartment Unit</h5>
+                                                </div>
+
+                                                <div class="my-2 text-gray fw-light">
+                                                    by: sale agend
+                                                </div>
+
+                                                <!-- ? price start -->
+                                                <div class="my-4">
+                                                    <div>
+                                                        <span class="p-03 me-2 bg-gray text-white rounded-circle"><i
+                                                                class="bi bi-tags"></i></span>
+                                                        $450 - $950 / month with taxes
+                                                    </div>
+                                                    <div class="mt-3">
+                                                        <span class="text-gray">Details:</span>
+                                                        2760 sq ft
+                                                    </div>
+                                                </div>
+
+                                                <!-- ? room info and button start -->
+                                                <div>
+                                                    <div>
+                                                        <span class="text-gray fs-4 me-2">
+                                                            <i class="bi bi-earbuds"></i>
+                                                        </span> 
+                                                        4 Bedrooms
+                                                    </div>
+                                                    <div class="d-flex flex-column flex-lg-row justify-content-lg-between">
+                                                        <div>
+                                                            <span class="text-gray fs-4 me-2">
+                                                                <i class="bi bi-droplet"></i>
+                                                            </span> 
+                                                            4 Bathrooms
+                                                        </div>
+
+                                                        <div class="mt-4 mt-lg-0">
+                                                            <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                                                            <button type="button" class="btn bg-white transition-06s hover-gray-main rounded-4 py-1 px-4 icon-text-center ">
+                                                                <span class="p-03 me-2 bg-gray text-white rounded-circle">
+                                                                    <i class="bi bi-eye"></i>
+                                                                </span>
+                                                                Contact Now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ? description end -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="row g-0 ">
+                                            <!-- ? img start -->
+                                            <div class="col-md-5">
+                                                <img class="w-100 h-100 rounded-start-1" src="./image/listing-02.jpg"
+                                                    alt="">
+                                            </div>
+                                            <!-- ? img end -->
+
+                                            <!-- ? decription start -->
+                                            <div class="col-md-7 bg-light rounded-end-1 p-5">
+                                                <!-- ? star and message count start -->
+                                                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
+                                                    <div class="order-lg-2">
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <span class="ms-2">(15) Reviews</span>
+                                                    </div>
+                                                    <h4 class="order-lg-1 fw-800">2. First Apartment Unit</h5>
+                                                </div>
+
+                                                <div class="my-2 text-gray fw-light">
+                                                    by: sale agend
+                                                </div>
+
+                                                <!-- ? price start -->
+                                                <div class="my-4">
+                                                    <div>
+                                                        <span class="p-03 me-2 bg-gray text-white rounded-circle"><i
+                                                                class="bi bi-tags"></i></span>
+                                                        $450 - $950 / month with taxes
+                                                    </div>
+                                                    <div class="mt-3">
+                                                        <span class="text-gray">Details:</span>
+                                                        2760 sq ft
+                                                    </div>
+                                                </div>
+
+                                                <!-- ? room info and button start -->
+                                                <div>
+                                                    <div>
+                                                        <span class="text-gray fs-4 me-2">
+                                                            <i class="bi bi-earbuds"></i>
+                                                        </span> 
+                                                        4 Bedrooms
+                                                    </div>
+                                                    <div class="d-flex flex-column flex-lg-row justify-content-lg-between">
+                                                        <div>
+                                                            <span class="text-gray fs-4 me-2">
+                                                                <i class="bi bi-droplet"></i>
+                                                            </span> 
+                                                            4 Bathrooms
+                                                        </div>
+
+                                                        <div class="mt-4 mt-lg-0">
+                                                            <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                                                            <button type="button" class="btn bg-white transition-06s hover-gray-main rounded-4 py-1 px-4 icon-text-center ">
+                                                                <span class="p-03 me-2 bg-gray text-white rounded-circle">
+                                                                    <i class="bi bi-eye"></i>
+                                                                </span>
+                                                                Contact Now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ? description end -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="row g-0 ">
+                                            <!-- ? img start -->
+                                            <div class="col-md-5">
+                                                <img class="w-100 h-100 rounded-start-1" src="./image/listing-03.jpg"
+                                                    alt="">
+                                            </div>
+                                            <!-- ? img end -->
+
+                                            <!-- ? decription start -->
+                                            <div class="col-md-7 bg-light rounded-end-1 p-5">
+                                                <!-- ? star and message count start -->
+                                                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
+                                                    <div class="order-lg-2">
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <span class="ms-2">(15) Reviews</span>
+                                                    </div>
+                                                    <h4 class="order-lg-1 fw-800">3. First Apartment Unit</h5>
+                                                </div>
+
+                                                <div class="my-2 text-gray fw-light">
+                                                    by: sale agend
+                                                </div>
+
+                                                <!-- ? price start -->
+                                                <div class="my-4">
+                                                    <div>
+                                                        <span class="p-03 me-2 bg-gray text-white rounded-circle"><i
+                                                                class="bi bi-tags"></i></span>
+                                                        $450 - $950 / month with taxes
+                                                    </div>
+                                                    <div class="mt-3">
+                                                        <span class="text-gray">Details:</span>
+                                                        2760 sq ft
+                                                    </div>
+                                                </div>
+
+                                                <!-- ? room info and button start -->
+                                                <div>
+                                                    <div>
+                                                        <span class="text-gray fs-4 me-2">
+                                                            <i class="bi bi-earbuds"></i>
+                                                        </span> 
+                                                        4 Bedrooms
+                                                    </div>
+                                                    <div class="d-flex flex-column flex-lg-row justify-content-lg-between">
+                                                        <div>
+                                                            <span class="text-gray fs-4 me-2">
+                                                                <i class="bi bi-droplet"></i>
+                                                            </span> 
+                                                            4 Bathrooms
+                                                        </div>
+
+                                                        <div class="mt-4 mt-lg-0">
+                                                            <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                                                            <button type="button" class="btn bg-white transition-06s hover-gray-main rounded-4 py-1 px-4 icon-text-center ">
+                                                                <span class="p-03 me-2 bg-gray text-white rounded-circle">
+                                                                    <i class="bi bi-eye"></i>
+                                                                </span>
+                                                                Contact Now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ? description end -->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row gy-5">
+
+                                    <div class="col-12">
+                                        <div class="row g-0 ">
+                                            <!-- ? img start -->
+                                            <div class="col-md-5">
+                                                <img class="w-100 h-100 rounded-start-1" src="./image/listing-04.jpg"
+                                                    alt="">
+                                            </div>
+                                            <!-- ? img end -->
+
+                                            <!-- ? decription start -->
+                                            <div class="col-md-7 bg-light rounded-end-1 p-5">
+                                                <!-- ? star and message count start -->
+                                                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
+                                                    <div class="order-lg-2">
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <span class="ms-2">(15) Reviews</span>
+                                                    </div>
+                                                    <h4 class="order-lg-1 fw-800">4. First Apartment Unit</h5>
+                                                </div>
+
+                                                <div class="my-2 text-gray fw-light">
+                                                    by: sale agend
+                                                </div>
+
+                                                <!-- ? price start -->
+                                                <div class="my-4">
+                                                    <div>
+                                                        <span class="p-03 me-2 bg-gray text-white rounded-circle"><i
+                                                                class="bi bi-tags"></i></span>
+                                                        $450 - $950 / month with taxes
+                                                    </div>
+                                                    <div class="mt-3">
+                                                        <span class="text-gray">Details:</span>
+                                                        2760 sq ft
+                                                    </div>
+                                                </div>
+
+                                                <!-- ? room info and button start -->
+                                                <div>
+                                                    <div>
+                                                        <span class="text-gray fs-4 me-2">
+                                                            <i class="bi bi-earbuds"></i>
+                                                        </span> 
+                                                        4 Bedrooms
+                                                    </div>
+                                                    <div class="d-flex flex-column flex-lg-row justify-content-lg-between">
+                                                        <div>
+                                                            <span class="text-gray fs-4 me-2">
+                                                                <i class="bi bi-droplet"></i>
+                                                            </span> 
+                                                            4 Bathrooms
+                                                        </div>
+
+                                                        <div class="mt-4 mt-lg-0">
+                                                            <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                                                            <button type="button" class="btn bg-white transition-06s hover-gray-main rounded-4 py-1 px-4 icon-text-center ">
+                                                                <span class="p-03 me-2 bg-gray text-white rounded-circle">
+                                                                    <i class="bi bi-eye"></i>
+                                                                </span>
+                                                                Contact Now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ? description end -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="row g-0 ">
+                                            <!-- ? img start -->
+                                            <div class="col-md-5">
+                                                <img class="w-100 h-100 rounded-start-1" src="./image/listing-05.jpg"
+                                                    alt="">
+                                            </div>
+                                            <!-- ? img end -->
+
+                                            <!-- ? decription start -->
+                                            <div class="col-md-7 bg-light rounded-end-1 p-5">
+                                                <!-- ? star and message count start -->
+                                                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
+                                                    <div class="order-lg-2">
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <span class="ms-2">(15) Reviews</span>
+                                                    </div>
+                                                    <h4 class="order-lg-1 fw-800">5. First Apartment Unit</h5>
+                                                </div>
+
+                                                <div class="my-2 text-gray fw-light">
+                                                    by: sale agend
+                                                </div>
+
+                                                <!-- ? price start -->
+                                                <div class="my-4">
+                                                    <div>
+                                                        <span class="p-03 me-2 bg-gray text-white rounded-circle"><i
+                                                                class="bi bi-tags"></i></span>
+                                                        $450 - $950 / month with taxes
+                                                    </div>
+                                                    <div class="mt-3">
+                                                        <span class="text-gray">Details:</span>
+                                                        2760 sq ft
+                                                    </div>
+                                                </div>
+
+                                                <!-- ? room info and button start -->
+                                                <div>
+                                                    <div>
+                                                        <span class="text-gray fs-4 me-2">
+                                                            <i class="bi bi-earbuds"></i>
+                                                        </span> 
+                                                        4 Bedrooms
+                                                    </div>
+                                                    <div class="d-flex flex-column flex-lg-row justify-content-lg-between">
+                                                        <div>
+                                                            <span class="text-gray fs-4 me-2">
+                                                                <i class="bi bi-droplet"></i>
+                                                            </span> 
+                                                            4 Bathrooms
+                                                        </div>
+
+                                                        <div class="mt-4 mt-lg-0">
+                                                            <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                                                            <button type="button" class="btn bg-white transition-06s hover-gray-main rounded-4 py-1 px-4 icon-text-center ">
+                                                                <span class="p-03 me-2 bg-gray text-white rounded-circle">
+                                                                    <i class="bi bi-eye"></i>
+                                                                </span>
+                                                                Contact Now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ? description end -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="row g-0 ">
+                                            <!-- ? img start -->
+                                            <div class="col-md-5">
+                                                <img class="w-100 h-100 rounded-start-1" src="./image/listing-06.jpg"
+                                                    alt="">
+                                            </div>
+                                            <!-- ? img end -->
+
+                                            <!-- ? decription start -->
+                                            <div class="col-md-7 bg-light rounded-end-1 p-5">
+                                                <!-- ? star and message count start -->
+                                                <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
+                                                    <div class="order-lg-2">
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <i class="bi bi-star"></i>
+                                                        <span class="ms-2">(15) Reviews</span>
+                                                    </div>
+                                                    <h4 class="order-lg-1 fw-800">6. First Apartment Unit</h5>
+                                                </div>
+
+                                                <div class="my-2 text-gray fw-light">
+                                                    by: sale agend
+                                                </div>
+
+                                                <!-- ? price start -->
+                                                <div class="my-4">
+                                                    <div>
+                                                        <span class="p-03 me-2 bg-gray text-white rounded-circle"><i
+                                                                class="bi bi-tags"></i></span>
+                                                        $450 - $950 / month with taxes
+                                                    </div>
+                                                    <div class="mt-3">
+                                                        <span class="text-gray">Details:</span>
+                                                        2760 sq ft
+                                                    </div>
+                                                </div>
+
+                                                <!-- ? room info and button start -->
+                                                <div>
+                                                    <div>
+                                                        <span class="text-gray fs-4 me-2">
+                                                            <i class="bi bi-earbuds"></i>
+                                                        </span> 
+                                                        4 Bedrooms
+                                                    </div>
+                                                    <div class="d-flex flex-column flex-lg-row justify-content-lg-between">
+                                                        <div>
+                                                            <span class="text-gray fs-4 me-2">
+                                                                <i class="bi bi-droplet"></i>
+                                                            </span> 
+                                                            4 Bathrooms
+                                                        </div>
+
+                                                        <div class="mt-4 mt-lg-0">
+                                                            <!-- ? icon-text-center => flex, align-items, justify-content : center -->
+                                                            <button type="button" class="btn bg-white transition-06s hover-gray-main rounded-4 py-1 px-4 icon-text-center ">
+                                                                <span class="p-03 me-2 bg-gray text-white rounded-circle">
+                                                                    <i class="bi bi-eye"></i>
+                                                                </span>
+                                                                Contact Now
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ? description end -->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! recent listing - [END^]-->
+
+    <!-- ! footer - [START] -->
+    <footer>
+        <div class="container">
+            <div class="row gy-5">
+
+                <div class="col-12">
+                    
+                    <div class="row gy-5 gx-md-5">
+
+                        <div class="col-lg-4">
+                            <img class="d-block mb-4" src="./image/black-logo.png" alt="">
+                            <p>
+                                If you consider that Plot Listing template is useful for your website, please support us a little via PayPal.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <h4 class="text-gray fw-800 mb-4">Helpful Links</h4>
+                            <div class="row gy-5 gy-lg-0">
+                                <div class="col-md-6 d-flex flex-column">
+                                    <a class="text-decoration-none transition-06s hover-gray-main-a link-dark mb-3" href="#">Categories</a>
+                                    <a class="text-decoration-none transition-06s hover-gray-main-a link-dark mb-3" href="#">Reviews</a>
+                                    <a class="text-decoration-none transition-06s hover-gray-main-a link-dark mb-3" href="#">Listing</a>
+                                    <a class="text-decoration-none transition-06s hover-gray-main-a link-dark" href="#">Contact Us</a>
+                                </div>
+
+                                <div class="col-md-6 d-flex flex-column">
+                                    <a class="text-decoration-none transition-06s hover-gray-main-a link-dark mb-3" href="#">About Us</a>
+                                    <a class="text-decoration-none transition-06s hover-gray-main-a link-dark mb-3" href="#">Awards</a>
+                                    <a class="text-decoration-none transition-06s hover-gray-main-a link-dark mb-3" href="#">Useful Sites</a>
+                                    <a class="text-decoration-none transition-06s hover-gray-main-a link-dark mb-3" href="#">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <h4 class="text-gray fw-800 mb-4">Contact Us</h4>
+
+                            <p class="mb-4">27th Street of New Town, Digital Villa</p>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a class="text-decoration-none transition-06s hover-gray-main-a link-dark" href="#">010-020-0340</a>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <a class="text-decoration-none transition-06s hover-gray-main-a link-dark" href="#">090-080-0760</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12">
+
+                    <div class="text-center py-5 border-top ">
+                        Copyright © 2021 Plot Listing Co., Ltd. All Rights Reserved. 
+                        <br>
+                        Design: TemplateMo
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- ! footer - [END^]-->
+
+
+    <script type="text/javascript">
+        /*  nav scroll */
+        let navList = ["bg-white", "nav-scroll", "py-2"];
+        let navbar = document.querySelector('nav');
+        let navbarLogo = document.querySelector('.navbar-brand img');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 0) {
+                navList.forEach(diziler => {
+                    navbar.classList.add(diziler);
+                    navbar.classList.remove('py-3');
+                    navbarLogo.setAttribute('src', "./image/black-logo.png");
+                });
+            } else {
+                navList.forEach(diziler => {
+                    navbar.classList.remove(diziler);
+                    navbar.classList.add('py-3');
+                    navbarLogo.setAttribute('src', "./image/white-logo.png");
+                });
+            }
+        });
+
+        /* ================================================== */
+
+        let categoriesBtn = [
+            document.querySelector('.categories-btn-1'),
+            document.querySelector('.categories-btn-2'),
+            document.querySelector('.categories-btn-3'),
+            document.querySelector('.categories-btn-4'),
+            document.querySelector('.categories-btn-5')
+        ];
+
+        let categoriesLi = [
+            document.querySelector('.categories-li-1'),
+            document.querySelector('.categories-li-2'),
+            document.querySelector('.categories-li-3'),
+            document.querySelector('.categories-li-4'),
+            document.querySelector('.categories-li-5'),
+        ];
+
+        let isActiveBTN = categoriesBtn[0],
+            isActiveLI = categoriesLi[0];
+
+        categoriesBtn[0].addEventListener('click', () => {
+            isActiveBTN.classList.remove('btn-active');
+            isActiveLI.classList.remove('li-active');
+
+            isActiveBTN = categoriesBtn[0];
+            isActiveLI = categoriesLi[0];
+
+            isActiveBTN.classList.add('btn-active');
+            isActiveLI.classList.add('li-active');
+        });
+
+        categoriesBtn[1].addEventListener('click', () => {
+            isActiveBTN.classList.remove('btn-active');
+            isActiveLI.classList.remove('li-active');
+
+            isActiveBTN = categoriesBtn[1];
+            isActiveLI = categoriesLi[1];
+
+            isActiveBTN.classList.add('btn-active');
+            isActiveLI.classList.add('li-active');
+
+        });
+
+
+        categoriesBtn[2].addEventListener('click', () => {
+            isActiveBTN.classList.remove('btn-active');
+            isActiveLI.classList.remove('li-active');
+
+            isActiveBTN = categoriesBtn[2];
+            isActiveLI = categoriesLi[2];
+
+            isActiveBTN.classList.add('btn-active');
+            isActiveLI.classList.add('li-active');
+        });
+
+        categoriesBtn[3].addEventListener('click', () => {
+            isActiveBTN.classList.remove('btn-active');
+            isActiveLI.classList.remove('li-active');
+
+            isActiveBTN = categoriesBtn[3];
+            isActiveLI = categoriesLi[3];
+
+            isActiveBTN.classList.add('btn-active');
+            isActiveLI.classList.add('li-active');
+        });
+
+        categoriesBtn[4].addEventListener('click', () => {
+            isActiveBTN.classList.remove('btn-active');
+            isActiveLI.classList.remove('li-active');
+
+            isActiveBTN = categoriesBtn[4];
+            isActiveLI = categoriesLi[4];
+
+            isActiveBTN.classList.add('btn-active');
+            isActiveLI.classList.add('li-active');
+        });
+
+
+
+    </script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></scrip>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></scrip>
+    -->
+</body>
+
+</html>

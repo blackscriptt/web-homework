@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap');
+
+/* =========================================================*/
+
+*{ list-style: none; }
+
+html{ scroll-behavior: smooth; }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+img{ object-fit: cover; }
+
+/* ! nav - [START] */
+nav{
+    transition: all .6s;
+    z-index: 9999;
+}
+.nav-scroll{
+    background: #fff!important;
+}
+.nav-scroll .nav-link{
+    color: #000!important;
+}
+.nav-scroll button{
+    background: #8D99AF!important;
+    color: #fff!important;
+}
+.nav-scroll button i{
+    color: #fff;
+}
+
+@media screen and (max-width: 991px){
+    .nav-lg-white{
+        background: #fff!important;
+    }
+    .nav-lg-white .nav-link{
+        color: #000!important;
+    }
+    .nav-lg-white button{
+        background: #8D99AF!important;
+        color: #fff!important;
+    }
+    .nav-lg-white button i{
+        color: #fff;
+    }
+}
+/* ! nav - [END^] */
+
+header{
+    height: 80vh;
+    background-image: url('../image/banner-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section, footer, mt-120{
+    margin-top: 120px;
+    /* border-top: 3px solid rgba(255, 255, 255, .6); */
+}
+
+/* * ============================================== * */
+
+
+/* ! border-color - [START] */
+.border-white-50{
+    border-color: rgba(255, 255, 255, .2)!important;
+}
+.border-black-50{
+    border-color: rgba(0, 0, 0, .2)!important;
+}
+/* ! border-color - [END^] */
+
+
+
+/* ! color - [START] */
+.text-gray{
+    color: #8D99AF;
+}
+
+.bg-gray{
+    background: #8D99AF;
+}
+.bg-lacivert{
+    background: #2b2d42!important;
+}
+
+/* ! color - [END^] */
+
+
+
+/* ! font-size - [START] */
+.fs-7{
+    font-size: .9rem;
+}
+/* ! font-size - [END^] */
+
+
+
+/* ! padding(top, right, bottom, left) - [START] */
+.py-02{
+    padding: .2rem 0;
+}
+.p-03{
+    padding: .37rem!important;
+}
+/* ! padding(top, right, bottom, left) - [END^] */
+
+
+/* ! font-weight - [START] */
+.fw-500{
+    font-weight: 500!important;
+}
+.fw-800{
+    font-weight: 800!important;
+}
+/* ! font-weight - [END^] */ 
+
+
+
+/* ! form & btn - [START] */
+.form-reset{
+    border: none!important;
+    outline:none!important;
+    box-shadow: none!important;
+    cursor: text!important;
+}
+.btn-reset{
+    border: none!important;
+    outline:none!important;
+    box-shadow: none!important;
+    cursor: pointer!important;
+}
+/* ! form & btn - [END^] */
+
+
+
+/* ! rounded - [START] */ 
+.rounded-end{
+    border-radius: 0!important;
+    border-top-right-radius: 8px!important;
+    border-bottom-right-radius: 8px!important;
+}
+.rounded-4{
+    border-radius: 8px!important;
+}
+.rounded-start-1{
+    border-radius: 10px 0 0 10px;
+}
+.rounded-end-1{
+    border-radius: 0 10px 10px 0;
+}
+@media screen and (max-width: 767px){
+    .rounded-start-1{
+        border-radius: 10px 10px 0 0;
+    }
+}
+/* ! rounded - [END^] */
+
+
+
+/* ! icon-text-center - [START] */
+.icon-text-center{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center;
+} 
+/* ! icon-text-center - [END^] */ 
+
+.transition-06s{
+    transition: all .6s;
+}
+
+
+
+/* ! hover - [START] */
+.hover-lacivert:hover .lacivert-hover-item{
+    background: #2b2d42!important;
+    color: #8D99AF!important;
+}
+
+.hover-lacivert-main:hover{
+    background: #2b2d42!important;
+    color: #8D99AF!important;
+}
+
+.hover-gray-main:hover{
+    background:#8D99AF!important;
+    color: #fff!important;
+}
+
+.hover-gray-main-a:hover{
+    color: #8D99AF!important;
+    text-decoration: underline!important;
+}
+
+.categories-btn{
+    border-bottom: 1px solid #2b2d42!important;
+}
+/* .categories-btn:last-child{
+    border:none!important;
+} */
+/* ! hover - [END^] */
+
+
+
+/* ! categories - [START] */
+.btn-active{
+    background: #2b2d42!important;
+}
+.categories-li-1,
+.categories-li-2,
+.categories-li-3,
+.categories-li-4,
+.categories-li-5{
+    display: none!important; 
+    position: relative;
+    bottom: -25px!important;
+    left:-25px!important;
+    opacity: 0!important;
+    transition: all 1s .6s ease;
+    
+}
+.li-active{
+    display: block!important;
+    opacity: 1!important;
+    bottom: 0!important;
+    left: 0!important;
+}
+/* ! categories - [END^] */
