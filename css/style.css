@@ -257,7 +257,7 @@ article:hover::before{
     background-image: linear-gradient(#00ccff, #d47500);
     width: 200px;
     height: 200%;
-    animation: kaan 4s linear infinite;
+    animation: borderAnimation 4s linear infinite;
 
 }
 article:hover::after{
@@ -266,6 +266,10 @@ article:hover::after{
     background: #000;
     inset: 4px;
     border-radius: 4px;
+}
+@keyframes borderAnimation {
+    from{ transform: rotate(0deg); }
+    to{ transform: rotate(360deg); }
 }
 article img{
     width: 100%;
