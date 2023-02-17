@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="svart">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Open+Sans&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body class="dark:text-custom-white dark:bg-black">
+  <!-- Nav - [START] -->
+  <nav class="bg-black py-6 lg:py-10 text-custom-grey font-custom-gemunu uppercase">
+    <!-- Container -->
+    <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
+      <!-- Logo -->
+      <a class="text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text  from-custom-red to-custom-white"
+        href="#">SVART</a>
+
+      <!-- Mobile Nav -->
+      <div class="block md:hidden">
+        <button class="text-lg"><i class="fa-solid fa-bars"></i></button>
+      </div>
+
+      <div class="hidden md:flex flex-1 items-center justify-between space-x-8 lg:space-x-16">
+        <!-- Nav Items -->
+        <ul class="flex items-center lg:text-lg space-x-4 lg:space-x-8">
+          <li><a class="hover:text-custom-melon transition duration-300" href="#">Home</a></li>
+          <li><a class="hover:text-custom-melon transition duration-300" href="#">Prices</a></li>
+          <li><a class="hover:text-custom-melon transition duration-300" href="#">About</a></li>
+          <li><a class="hover:text-custom-melon transition duration-300" href="#">Contact Us</a></li>
+        </ul>
+        <!-- Right Area -->
+        <div class="flex items-center space-x-4 lg:space-x-8">
+          <div class="flex space-x-4 border-r border-custom-red px-3">
+            <!-- Search -->
+            <div class="flex items-center">
+              <form action="">
+                <div class="group ">
+                  <input
+                    class="opacity-0 group-hover:opacity-100 transition duration-500 bg-transparent border-b border-custom-red focus:outline-none w-23"
+                    type="text" name="" id="">
+                  <button class="group-hover:text-custom-red transition duration-500"><i
+                      class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+              </form>
+            </div>
+
+            <div>
+              <button id="dark"><i class="fa-solid fa-moon"></i></button>
+              <button id="light" class="hidden"><i class="fa-solid fa-sun"></i></button>
+            </div>
+
+          </div>
+          <!-- Login & Register -->
+          <div class="flex items-center lg:text-lg space-x-4 lg:space-x-8">
+            <a href="#">Login</a>
+            <a class="bg-custom-red px-3 py-1 rounded hover:bg-rose-600 hover:text-custom-white whitespace-nowrap"
+              href="#">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Nav - [END^] -->
+
+  <!-- Hero - [START] -->
+  <section class="h-64 md:h-96 lg:h-128 group relative bg-black">
+    <img src="./images/company.jpeg" alt="Company Header" class="w-full h-full object-cover opacity-70">
+    <!-- Hero Content -->
+    <div class="absolute bottom-0 w-full bg-gradient-to-t to-transparent from-black">
+      <!-- Container -->
+      <div class="container">
+        <h3 class="text-custom-melon uppercase group-hover:mb-1 duration-300">
+          ACTION, DRAMA, THRILLER
+        </h3>
+        <h1 class="text-custom-grey uppercase text-4xl lg:text-6xl group-hover:mb-1 transition duration-300">
+          THE DARK KNIGHT
+        </h1>
+        <p class="text-custom-grey group-hover:mb-3 duration-300 text-sm lg:text-base w-3/4 lg:w-2/3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, natus? Sunt fugiat porro, eveniet debitis
+          error accusamus cum fugit ipsam?
+        </p>
+
+        <!-- Details -->
+        <div
+          class="opacity-0 group-hover:opacity-100 group-hover:mb-5 lg:group-hover:mb-10 duration-1000 flex items-center space-x-6">
+          <!-- watch -->
+          <div>
+            <a class="flex items-center justify-center uppercase text-sm lg:text-base text-custom-grey" href="#">
+              WATCH TRAILER
+              <span class="w-6 h-6 lg:w-8 lg:h-8 rounded-full flex items-center justify-center bg-custom-red ml-3"><i
+                  class="fa-solid fa-play"></i></span>
+            </a>
+          </div>
+          <!-- FULL SYNOPSIS -->
+          <div>
+            <a class="flex items-center justify-center uppercase text-sm lg:text-base text-custom-grey" href="#">
+              FULL SYNOPSIS
+              <span class="w-6 h-6 lg:w-8 lg:h-8 rounded-full flex items-center justify-center bg-custom-red ml-3"><i
+                  class="fa-solid fa-arrow-right-long"></i></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Circles -->
+        <div class="flex items-center space-x-2 mb-4">
+          <span class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-custom-red"></span>
+          <span class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-custom-grey"></span>
+          <span class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-custom-grey"></span>
+          <span class="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-custom-grey"></span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Hero - [END^] -->
+
+  <!-- Movies - [START] -->
+  <section class="py-24">
+    <!-- Container -->
+    <div class="container">
+      <!-- Grid -->
+      <div class="grid grid-cols-1 gap-y-5 lg:grid-cols-3 lg:gap-x-16">
+
+        <!-- Left Area -->
+        <div class="col-span-2">
+          <!-- Left Header -->
+          <div class="mb-5">
+            <ul class="flex flex-col sm:flex-row sm:space-x-2 sm:divide-x divide-rose-400 font-custom-gemunu ">
+              <li><a class="text-3xl text-custom-red" href="#">LATES</a></li>
+              <li><a class="text-3xl hover:text-custom-red duration-700 sm:ml-2" href="#">LATES</a></li>
+              <li><a class="text-3xl hover:text-custom-red duration-700 sm:ml-2" href="#">LATES</a></li>
+            </ul>
+          </div>
+
+          <!-- Movies Left -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+            <!-- Movies Box - 1 -->
+            <div class="h-80 bg-black font-custom-gemunu relative group overflow-hidden ">
+              <img class="w-full h-full opacity-40 object-cover group-hover:scale-110 duration-700"
+                src="./images/company.jpeg" alt="">
+              <div class="absolute bottom-12 left-5 right-5 text-custom-white">
+                <h4 class="text-custom-melon group-hover:mb-2 duration-700">Merhaba</h4>
+                <p class="text-xs opacity-0 group-hover:opacity-100 -mb-4 group-hover:mb-2 duration-700">Lorem ipsum,
+                  dolor sit amet consectetur adipisicing elit. Ducimus, quasi.</p>
+                <div class="flex space-x-4 opacity-0 group-hover:opacity-100 group-hover:mb-2 duration-700">
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Movies Box - 2 -->
+            <div class="h-80 bg-black font-custom-gemunu relative group overflow-hidden">
+              <img class="w-full h-full opacity-40 object-cover group-hover:scale-110 duration-700"
+                src="./images/company-2.jpeg" alt="">
+              <div class="absolute bottom-12 left-5 right-5 text-custom-white">
+                <h4 class="text-custom-melon group-hover:mb-2 duration-700">Merhaba</h4>
+                <p class="text-xs opacity-0 group-hover:opacity-100 -mb-4 group-hover:mb-2 duration-700">Lorem ipsum,
+                  dolor sit amet consectetur adipisicing elit. Ducimus, quasi.</p>
+                <div class="flex space-x-4 opacity-0 group-hover:opacity-100 group-hover:mb-2 duration-700">
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Movies Box - 3 -->
+            <div class="h-80 bg-black font-custom-gemunu relative group overflow-hidden">
+              <img class="w-full h-full opacity-40 object-cover group-hover:scale-110 duration-700"
+                src="./images/company-3.jpeg" alt="">
+              <div class="absolute bottom-12 left-5 right-5 text-custom-white">
+                <h4 class="text-custom-melon group-hover:mb-2 duration-700">Merhaba</h4>
+                <p class="text-xs opacity-0 group-hover:opacity-100 -mb-4 group-hover:mb-2 duration-700">Lorem ipsum,
+                  dolor sit amet consectetur adipisicing elit. Ducimus, quasi.</p>
+                <div class="flex space-x-4 opacity-0 group-hover:opacity-100 group-hover:mb-2 duration-700">
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Movies Box - 4 -->
+            <div class="h-80 bg-black font-custom-gemunu relative group overflow-hidden">
+              <img class="w-full h-full opacity-40 object-cover group-hover:scale-110 duration-700"
+                src="./images/company-4.jpeg" alt="">
+              <div class="absolute bottom-12 left-5 right-5 text-custom-white">
+                <h4 class="text-custom-melon group-hover:mb-2 duration-700">Merhaba</h4>
+                <p class="text-xs opacity-0 group-hover:opacity-100 -mb-4 group-hover:mb-2 duration-700">Lorem ipsum,
+                  dolor sit amet consectetur adipisicing elit. Ducimus, quasi.</p>
+                <div class="flex space-x-4 opacity-0 group-hover:opacity-100 group-hover:mb-2 duration-700">
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Movies Box - 5 -->
+            <div class="h-80 bg-black font-custom-gemunu relative group overflow-hidden">
+              <img class="w-full h-full opacity-40 object-cover group-hover:scale-110 duration-700"
+                src="./images/company-5.jpeg" alt="">
+              <div class="absolute bottom-12 left-5 right-5 text-custom-white">
+                <h4 class="text-custom-melon group-hover:mb-2 duration-700">Merhaba</h4>
+                <p class="text-xs opacity-0 group-hover:opacity-100 -mb-4 group-hover:mb-2 duration-700">Lorem ipsum,
+                  dolor sit amet consectetur adipisicing elit. Ducimus, quasi.</p>
+                <div class="flex space-x-4 opacity-0 group-hover:opacity-100 group-hover:mb-2 duration-700">
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Movies Box - 6 -->
+            <div class="h-80 bg-black font-custom-gemunu relative group overflow-hidden">
+              <img class="w-full h-full opacity-40 object-cover group-hover:scale-110 duration-700"
+                src="./images/company-6.jpeg" alt="">
+              <div class="absolute bottom-12 left-5 right-5 text-custom-white">
+                <h4 class="text-custom-melon group-hover:mb-2 duration-700">Merhaba</h4>
+                <p class="text-xs opacity-0 group-hover:opacity-100 -mb-4 group-hover:mb-2 duration-700">Lorem ipsum,
+                  dolor sit amet consectetur adipisicing elit. Ducimus, quasi.</p>
+                <div class="flex space-x-4 opacity-0 group-hover:opacity-100 group-hover:mb-2 duration-700">
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-play"></i></a>
+                  <a class="hover:text-rose-400 duration-700" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right Area -->
+        <div class="col-span-1 ">
+          <!-- Right Header -->
+          <div class="mb-5">
+            <h3 class="text-3xl font-custom-gemunu">HOT NEWS</h3>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-y-4">
+            <!-- Right Box - 1 -->
+            <div class="flex h-36 space-x-3">
+              <img class="h-full w-1/3 object-cover" src="./images/company-2.jpeg" alt="">
+              <div class="text-sm self-center font-custom-open">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, saepe!</p>
+                <span class="mt-1 font-bold font-custom-gemunu">16 Şubat Perşembe</span>
+              </div>
+            </div>
+
+            <!-- Right Box - 2 -->
+            <div class="flex h-36 space-x-3">
+              <img class="h-full w-1/3 object-cover" src="./images/company-2.jpeg" alt="">
+              <div class="text-sm self-center font-custom-open">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, saepe!</p>
+                <span class="mt-1 font-bold font-custom-gemunu">16 Şubat Perşembe</span>
+              </div>
+            </div>
+
+            <!-- Right Box - 3 -->
+            <div class="flex h-36 space-x-3">
+              <img class="h-full w-1/3 object-cover" src="./images/company-2.jpeg" alt="">
+              <div class="text-sm self-center font-custom-open">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, saepe!</p>
+                <span class="mt-1 font-bold font-custom-gemunu">16 Şubat Perşembe</span>
+              </div>
+            </div>
+
+            <!-- Right Box - 4 -->
+            <div class="flex h-36 space-x-3">
+              <img class="h-full w-1/3 object-cover" src="./images/company-2.jpeg" alt="">
+              <div class="text-sm self-center font-custom-open">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, saepe!</p>
+                <span class="mt-1 font-bold font-custom-gemunu">16 Şubat Perşembe</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Movies - [END^] -->
+
+  <!-- Info - [START] -->
+  <section class="bg-custom-grey dark:bg-custom-black">
+    <div class="container">
+      <div class="flex items-center justify-center sm:space-x-32">
+        <div class="hidden sm:block basis-1/3">
+          <img class="origin-bottom-left w-72 scale-110 h-80 object-cover" src="./images/company-5.jpeg" alt="">
+        </div>
+
+        <div class="sm:basis-2/3 font-custom-gemunu text-center sm:text-left py-10">
+          <h3 class="text-lg text-custom-melon">ACTION, DRAMA, THRILLER</h3>
+          <h1 class="text-3xl mb-2">MATRIX RELOADED</h1>
+          <p class="font-custom-open mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde repellat
+            impedit consequatur soluta obcaecati totam animi excepturi est vero?</p>
+          <span class="text-rose-900 text-lg">8 WINS 34 NOMINATIONS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Info - [END^] -->
+
+  <!-- Message - [START] -->
+  <section class="py-24">
+    <div class="container">
+      <div>
+        <h1 class="font-custom-gemunu text-custom-red text-2xl">POPULAR POSTS</h1>
+      </div>
+
+      <div class="grid grid-cols-6 gap-5">
+        <!-- Message Box - 1 -->
+        <div class="col-span-6 sm:col-span-3">
+          <div class="border border-custom-red font-custom-gemunu ">
+            <div class="border-b border-custom-red flex justify-between items-center p-4">
+              <h3>ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
+              <img class="w-14 h-14 rounded-full" src="./images/company-2.jpeg" alt="">
+            </div>
+
+            <div class="border-b border-custom-red p-4">
+              <p class="font-custom-open text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, consequatur temporibus dolorem nihil
+                excepturi quos. Amet cupiditate aperiam temporibus perferendis?
+              </p>
+            </div>
+
+            <div class="font-bold flex justify-end items-center space-x-3 p-4 text-sm">
+              <span>16 Şubat Cum</span>
+              <div>
+                <span class="mr-1 text-custom-red"><i class="fa-solid fa-comment mr-1"></i>12</span>
+                <span class="text-custom-red"><i class="fa-solid fa-heart mr-1"></i>09</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Message Box - 2 -->
+        <div class="col-span-6 sm:col-span-3">
+          <div class="border border-custom-red font-custom-gemunu">
+            <div class="border-b border-custom-red flex justify-between items-center p-4">
+              <h3>ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
+              <img class="w-14 h-14 rounded-full" src="./images/company-2.jpeg" alt="">
+            </div>
+
+            <div class="border-b border-custom-red p-4">
+              <p class="font-custom-open text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, consequatur temporibus dolorem nihil
+                excepturi quos. Amet cupiditate aperiam temporibus perferendis?
+              </p>
+            </div>
+
+            <div class="font-bold flex justify-end items-center space-x-3 p-4 text-sm">
+              <span>16 Şubat Cum</span>
+              <div>
+                <span class="mr-1 text-custom-red"><i class="fa-solid fa-comment mr-1"></i>12</span>
+                <span class="text-custom-red"><i class="fa-solid fa-heart mr-1"></i>09</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Message Box - 3 -->
+        <div class="col-span-6 sm:col-span-3 md:col-span-2">
+          <div class="border border-custom-red font-custom-gemunu ">
+            <div class="border-b border-custom-red flex justify-between items-center p-4">
+              <h3>ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
+              <img class="w-14 h-14 rounded-full" src="./images/company-2.jpeg" alt="">
+            </div>
+
+            <div class="border-b border-custom-red p-4">
+              <p class="font-custom-open text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, consequatur temporibus dolorem nihil
+                excepturi quos. Amet cupiditate aperiam temporibus perferendis?
+              </p>
+            </div>
+
+            <div class="font-bold flex justify-end items-center space-x-3 p-4 text-sm">
+              <span>16 Şubat Cum</span>
+              <div>
+                <span class="mr-1 text-custom-red"><i class="fa-solid fa-comment mr-1"></i>12</span>
+                <span class="text-custom-red"><i class="fa-solid fa-heart mr-1"></i>09</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Message Box - 4 -->
+        <div class="col-span-6 sm:col-span-3 md:col-span-2 ">
+          <div class="border border-custom-red font-custom-gemunu ">
+            <div class="border-b border-custom-red flex justify-between items-center p-4">
+              <h3>ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
+              <img class="w-14 h-14 rounded-full" src="./images/company-2.jpeg" alt="">
+            </div>
+
+            <div class="border-b border-custom-red p-4">
+              <p class="font-custom-open text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, consequatur temporibus dolorem nihil
+                excepturi quos. Amet cupiditate aperiam temporibus perferendis?
+              </p>
+            </div>
+
+            <div class="font-bold flex justify-end items-center space-x-3 p-4 text-sm">
+              <span>16 Şubat Cum</span>
+              <div>
+                <span class="mr-1 text-custom-red"><i class="fa-solid fa-comment mr-1"></i>12</span>
+                <span class="text-custom-red"><i class="fa-solid fa-heart mr-1"></i>09</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Message Box - 5 -->
+        <div class="col-span-6 sm:col-span-6 md:col-span-2">
+          <div class="border border-custom-red font-custom-gemunu ">
+            <div class="border-b border-custom-red flex justify-between items-center p-4">
+              <h3>ACCUSANTIUM DOLOREMQUE LAUDANT...</h3>
+              <img class="w-14 h-14 rounded-full" src="./images/company-2.jpeg" alt="">
+            </div>
+
+            <div class="border-b border-custom-red p-4">
+              <p class="font-custom-open text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, consequatur temporibus dolorem nihil
+                excepturi quos. Amet cupiditate aperiam temporibus perferendis?
+              </p>
+            </div>
+
+            <div class="font-bold flex justify-end items-center space-x-3 p-4 text-sm">
+              <span>16 Şubat Cum</span>
+              <div>
+                <span class="mr-1 text-custom-red"><i class="fa-solid fa-comment mr-1"></i>12</span>
+                <span class="text-custom-red"><i class="fa-solid fa-heart mr-1"></i>09</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Message - [END^] -->
+
+  <!-- Footer - [START] -->
+  <footer class="bg-custom-grey py-5 dark:bg-custom-black">
+    <div class="container">
+      <div class="grid grid-cols-3 gap-0 justify-items-center sm:justify-items-start">
+
+        <div class="col-span-3 justify-center text-center md:text-start sm:col-span-1">
+          <a class="text-3xl font-bold text-transparent bg-gradient-to-r bg-clip-text  from-custom-red to-custom-white"
+            href="#">SVART</a>
+          <p class="text-sm mt-2 opacity-60">2023 SVART © COPYRIGHT</p>
+        </div>
+
+        <div class="col-span-3 sm:col-span-1">
+          <div class="font-custom-gemunu">
+            <h3 class="text-custom-red text-2xl mb-2">LINKS</h3>
+            <div class="flex space-x-10">
+              <div>
+                <ul>
+                  <li><a href="#">MOVIES</a></li>
+                  <li><a href="#">BLOG</a></li>
+                  <li><a href="#">ABPUT</a></li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li><a href="#">CELEBRITIES</a></li>
+                  <li><a href="#">NEWS</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-3 sm:col-span-1">
+          <div class="font-custom-gemunu">
+            <h3 class="text-custom-red text-2xl mb-2">FOLLOW US</h3>
+            <div class="flex">
+              <input class="focus:outline-none p-1  border border-custom-red w-52" type="text" name="" id=""
+                placeholder="YOUR EMAIL">
+              <button class="bg-custom-red p-2 text-custom-white">SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- Footer - [END^] -->
+
+  <script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+
+</html>
