@@ -98,7 +98,7 @@ ul{
 /* header - [START] */
 header{
     height: 20vh;
-    background-image: url('../images/bg-header.jpg');
+    background-image: url('../images/bg-header.webp');
     background-size: cover;
     background-position: 0 -400px;
     background-repeat: no-repeat;
