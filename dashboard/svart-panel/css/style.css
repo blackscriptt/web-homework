@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: linear-gradient(150deg,rgba(255, 0, 0, 0.7), rgba(43, 255, 0, 0.7), rgba(0, 187, 255, 0.7) );
+    background-size: 500%;
+    background-repeat: no-repeat;
+
+    animation: kaan 5s linear infinite alternate;
+}
+
+@keyframes kaan {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: 100%;
+    }
+}
+
+
+h1 {
+    color: #272d29;
+    font-weight: 600;
+}
+
+h1 span {
+    font-size: 2rem
+}

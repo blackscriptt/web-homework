@@ -1,0 +1,131 @@
+body{
+    background: #232323;
+    color: #fff;
+    
+}
+main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+main video {
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    opacity: .65;
+}
+
+
+
+
+
+form {
+    background: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    z-index: 99999;
+    width: 400px;
+    border-radius: 10px;
+    padding: 25px 30px;
+
+    position: relative;
+}
+
+form .error {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(200, 12, 12);
+    padding: 3px 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: .8rem;
+
+    transition: all 1s ease;
+
+    opacity: 0;
+}
+
+.form__title {
+    position: relative;
+    padding-bottom: .8px;
+}
+.form__title::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: #f4f4f4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.form__title h2 {
+    font-size: 1.8rem;
+    animation: kaan 2s linear infinite alternate;
+}
+
+@keyframes kaan {
+    from { text-shadow: 0 0 15px #fff; }
+    to { text-shadow: 0 0 0; }
+}
+
+
+.form__item {
+    border-bottom: 2px solid #f4f4f4;
+    margin: 25px 0;
+}
+
+.form__item label {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .7rem;
+    margin-bottom: 5px;
+}
+
+
+
+.form__item input{
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, .8);
+
+    font-size: .9rem;
+
+}
+
+.form__button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.form__button span {
+    font-size: .8rem;
+    margin-right: auto;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    opacity: .8;
+}
+
+.form__button button{
+    border: none;
+    outline: none;
+    background: rgb(27, 129, 12);
+    color: #fff;
+    font-size: .9rem;
+    padding: 3px 20px;
+    border-radius: 5px;
+}
