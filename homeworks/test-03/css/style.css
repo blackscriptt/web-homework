@@ -518,6 +518,7 @@ main aside {
 @media screen and (max-width: 979px) {
     /* nav - [START] */
     nav {
+        height: 100vh;
         width: 250px;
         position: fixed;
         top: 0;
