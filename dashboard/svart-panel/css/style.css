@@ -34,8 +34,9 @@ main aside:hover::-webkit-scrollbar-thumb {
     height: 100vh;
     display: flex;
     overflow: none;
-
+    position: relative;
 }
+
 body {
     background: var(--gray);
     color: #fff;
@@ -386,6 +387,9 @@ main h4 {
 main aside {
     overflow: hidden;
     overflow-y: auto;
+    
+    position: sticky;
+    top: 15px;
 }
 
 /* aside weather - [START] */
