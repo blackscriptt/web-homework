@@ -511,6 +511,13 @@ main aside {
 
 /* aside - [END^] */
 
+main footer {
+    color: var(--white-50);
+    font-size: .8rem;
+    padding: 8px 0;
+    text-align: center;
+}
+
 /* main, aside - [START] */
 
 
