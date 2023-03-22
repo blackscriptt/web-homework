@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- nav top - [START] -->
+    <nav id="nav__top">
+        <div class="container">
+            <a href="#"><i class="fa-solid fa-phone-flip"></i> (216) 379 0410</a>
+
+            <ul class="nav__items">
+                <li><a href="#"><i class="fa-solid fa-house"></i> Anasayfa</a></li>
+                <li><a href="#"><i class="fa-solid fa-sitemap"></i> Site Haritası</a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Arama Yap</a></li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i> İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- nav top - [END^] -->
+
+    <!-- header - [START] -->
+    <header>
+        <div class="container">
+            <div class="left">
+                <img class="header__img" src="./images/meb-logo.png" alt="">
+                <div class="header__text">
+                    <span>İstanbul / Pendik</span>
+                    <h1>Pendik Türk Telekom Şehit Murat Mertel Mesleki ve Teknik Anadolu Lisesi</h1>
+                </div>
+            </div>
+
+            <div class="right d-none d-lg-block">
+                <img src="./images/ataturk.png" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- header - [END^] -->
+
+    <!-- nav - [START] -->
+    <nav id="nav__main">
+        <div class="container">
+            <ul class="nav__items">
+                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#">Okulumuz</a></li>
+                <li><a href="#">Öğrenci İşleri</a></li>
+                <li class="d-none d-lg-block"><a href="#">Rehberlik Servisi</a></li>
+                <li class="d-none d-lg-block"><a href="#">Aday Öğrenci</a></li>
+                <li class="d-none d-lg-block"><a href="#">İşletmelerde</a></li>
+                <li class="d-none d-lg-block"><a href="#">Etkinlikleri</a></li>
+                <li class="d-none d-lg-block"><a href="#">Atatürk Köşe</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- nav - [END^] -->
+
+    <!-- hero - [START] -->
+    <section id="hero">
+        <div class="container">
+            <div class="slider">
+                <button type="button" class="slider-prev"><i class="fa-solid fa-caret-left"></i></button>
+                <div class="slider-inner">
+                    <div class="item">
+                        <img src="./images/slider-item-1.jpeg" alt="">
+                        <div class="item-text">
+                            <h2>merhaba, bugün hava nasıl?</h2>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="slider-next"><i class="fa-solid fa-caret-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <!-- hero - [END^] -->
+
+    <!-- schools news - [START] -->
+    <section id="news">
+        <div class="container">
+            <div class="row gy-5">
+
+                <div class="col-lg-8">
+
+                    <div class="row gy-2">
+                        <div class="col-12">
+                            <div class="slide__header">
+                                <h4>Okulumuzdan Haberler</h4>
+                                <div class="slide__btn">
+                                    <div class="swiper-button-prev"><i class="fa-regular fa-hand-point-left"></i></div>
+                                    <div class="swiper-button-next"><i class="fa-regular fa-hand-point-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <!-- item 1 - [START] -->
+                                    <div class="swiper-slide">
+                                        <img src="./images/slider-item-1.jpeg" alt="">
+                                        <div class="slide-text">
+                                            <span>
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                13-03-2013
+                                            </span>
+                                            <h3>Merhaba, dünya!</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis...</p>
+                                            <button type="button">Devamını oku ></button>
+                                        </div>  
+                                    </div>
+                                    <!-- item 1 - [END^] -->
+
+                                    <!-- item 2 - [START] -->
+                                    <div class="swiper-slide">
+                                        <img src="./images/slider-item-1.jpeg" alt="">
+                                        <div class="slide-text">
+                                            <span>
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                13-03-2013
+                                            </span>
+                                            <h3>Merhaba, dünya!</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis...</p>
+                                            <button type="button">Devamını oku ></button>
+                                        </div>  
+                                    </div>
+                                    <!-- item 2 - [END^] -->
+
+                                    <!-- item 3 - [START] -->
+                                    <div class="swiper-slide">
+                                        <img src="./images/slider-item-1.jpeg" alt="">
+                                        <div class="slide-text">
+                                            <span>
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                13-03-2013
+                                            </span>
+                                            <h3>Merhaba, dünya!</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis...</p>
+                                            <button type="button">Devamını oku ></button>
+                                        </div>  
+                                    </div>
+                                    <!-- item 3 - [END^] -->  
+
+                                    <!-- item 4 - [START] -->
+                                    <div class="swiper-slide">
+                                        <img src="./images/slider-item-1.jpeg" alt="">
+                                        <div class="slide-text">
+                                            <span>
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                13-03-2013
+                                            </span>
+                                            <h3>Merhaba, dünya!</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis...</p>
+                                            <button type="button">Devamını oku ></button>
+                                        </div>  
+                                    </div>
+                                    <!-- item 4 - [END^] --> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4">
+                    <div class="row gy-2">
+                        <div class="col-12">
+                            <div class="slide__header">
+                                <h4>Duyurular</h4>
+                                <div class="slide__btn">
+                                    <div class="swiper-button-prev2"><i class="fa-regular fa-hand-point-left"></i></div>
+                                    <div class="swiper-button-next2"><i class="fa-regular fa-hand-point-right"></i></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="swiper mySwiper2">
+                                <div class="swiper-wrapper">
+                                    <!-- item 1 - [START] -->
+                                    <div class="swiper-slide">
+                                        <img src="./images/slider-item-1.jpeg" alt="">
+                                        <div class="slide-text">
+                                            <span>
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                13-03-2013
+                                            </span>
+                                            <h3>Merhaba, dünya!</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis...</p>
+                                            <button type="button">Devamını oku ></button>
+                                        </div>  
+                                    </div>
+                                    <!-- item 1 - [END^] -->
+
+                                    <!-- item 2 - [START] -->
+                                    <div class="swiper-slide">
+                                        <img src="./images/slider-item-1.jpeg" alt="">
+                                        <div class="slide-text">
+                                            <span>
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                13-03-2013
+                                            </span>
+                                            <h3>Merhaba, dünya!</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis...</p>
+                                            <button type="button">Devamını oku ></button>
+                                        </div>  
+                                    </div>
+                                    <!-- item 2 - [END^] -->
+
+                                    <!-- item 3 - [START] -->
+                                    <div class="swiper-slide">
+                                        <img src="./images/slider-item-1.jpeg" alt="">
+                                        <div class="slide-text">
+                                            <span>
+                                                <i class="fa-solid fa-calendar-days"></i>
+                                                13-03-2013
+                                            </span>
+                                            <h3>Merhaba, dünya!</h3>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis...</p>
+                                            <button type="button">Devamını oku ></button>
+                                        </div>  
+                                    </div>
+                                    <!-- item 3 - [END^] -->  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- schools news - [END^] -->
+
+    <!-- our institution - [START] -->
+    <section id="ourInstitution">
+        <div class="container">
+            <div>
+                <div class="ourInstitution__header">
+                    <h4>Sayılarla Kurumumuz</h4>
+                    <a href="#">Kurumumuz hakkında detaylı bilgi almak için tıklayınız</a>
+                </div>
+
+                <div class="row gy-5">
+
+                    <!-- item 1 - [START] -->
+                    <div class="col-lg-3">
+                        <div class="item">
+                            <img src="./images/turkiye-haritasi.png" alt="">
+                        </div>
+                    </div>
+                    <!-- item 1 - [END^] -->
+
+                    <!-- item 2 - [START] -->
+                    <div class="col-lg-3">
+                        <div class="item">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                            <div class="item__text">
+                                <h6>Derslik sayısı</h6>
+                                <span>14</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 2 - [END^] -->
+
+                    <!-- item 3 - [START]-->
+                    <div class="col-lg-3">
+                        <div class="item">
+                            <i class="fa-solid fa-users"></i>
+                            <div class="item__text">
+                                <h6>Öğretmen Sayısı</h6>
+                                <span>45</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 3 - [END^] -->
+
+                    <!-- item 4 - [START]-->
+                    <div class="col-lg-3">
+                        <div class="item">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <div class="item__text">
+                                <h6>Öğrenci Sayısı</h6>
+                                <span>812</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 4 - [END^] -->
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- our institution - [END^] -->
+
+    <!-- links - [START] -->
+    <section id="links">
+        <div class="container">
+
+            <h4>Bağlantılar</h4>
+
+            <div class="row g-0 gy-2 gx-lg-4">
+
+                <div class="col-lg-4">
+
+                    <ul class="links__items">
+                        <li><a href="#"><i class="fa-solid fa-angles-right"></i> e-okul Yönetim Bilgi Sistemleri Giris Ekrant</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angles-right"></i> e-Devlet Kapisi >> www.turkiye.gov.tr</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angles-right"></i> Cumhurbaskanligi iletisim Merkezi</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <ul class="links__items">
+                        <li><a href="#"><i class="fa-solid fa-angles-right"></i> Mesleğim Hayatım Portalı</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angles-right"></i> 444 0 MEB</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angles-right"></i> Mebde Öğren</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4">
+                    <ul class="links__items">
+                        <li><a href="#"><i class="fa-solid fa-angles-right"></i> e-Okul Veli Bilgelndirme Sistemi</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angles-right"></i> Milli Eğitim Bakanlığı İstatistik</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angles-right"></i> T.C. Milli Eğitim Bakanlığı</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- links - [END^] -->
+
+
+    <!-- sponsors - [START] -->
+    <section id="sponsors">
+        <div class="container">
+            <div class="swiper mySwiper3">
+                <div class="swiper-wrapper">
+
+                    <!-- item 1 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-1.png" alt="">
+                        </a>
+                    </div>
+                    <!-- item 1 - [END^] -->
+
+                    <!-- item 2 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-2.jpeg" alt="">
+                        </a>
+                    </div>
+                    <!-- item 2 - [END^] -->
+
+                    <!-- item 3 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-3.jpeg" alt="">
+                        </a>
+                    </div>
+                    <!-- item 3 - [END^] -->
+                    
+                    <!-- item 4 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-4.png" alt="">
+                        </a>
+                    </div>
+                    <!-- item 4 - [END^] -->
+
+                    <!-- item 5 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-1.png" alt="">
+                        </a>
+                    </div>
+                    <!-- item 5 - [END^] -->
+
+                    <!-- item 6 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-2.jpeg" alt="">
+                        </a>
+                    </div>
+                    <!-- item 6 - [END^] -->
+
+                    <!-- item 7 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-3.jpeg" alt="">
+                        </a>
+                    </div>
+                    <!-- item 7 - [END^] -->
+                    
+                    <!-- item 8 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-4.png" alt="">
+                        </a>
+                    </div>
+                    <!-- item 8 - [END^] -->
+
+                    <!-- item 9 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-4.png" alt="">
+                        </a>
+                    </div>
+                    <!-- item 9 - [END^] -->
+
+                    <!-- item 10 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-1.png" alt="">
+                        </a>
+                    </div>
+                    <!-- item 10 - [END^] -->
+
+                    <!-- item 11 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-2.jpeg" alt="">
+                        </a>
+                    </div>
+                    <!-- item 11 - [END^] -->
+
+                    <!-- item 12 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-3.jpeg" alt="">
+                        </a>
+                    </div>
+                    <!-- item 12 - [END^] -->
+                    
+                    <!-- item 13 - [START] -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/sponsors-4.png" alt="">
+                        </a>
+                    </div>
+                    <!-- item 13 - [END^] -->
+
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+              </div>
+        </div>
+    </section>
+    <!-- sponsors - [END^] -->
+
+    <!-- footer - [START] -->
+    <footer>
+        <div class="container">
+            <h4>İletişim</h4>
+
+            <div class="row gy-5">
+
+                <div class="col-lg-6">
+                    <div class="footer__text">
+                        <div class="footer__address">
+                            <h5>Adres:</h5>
+                            <span>Çınardere Mahallesi Nil Sokak No 14 İç Kapı No 1 Pendik / İSTANBUL</span>
+                        </div>
+
+                        <div class="footer__phone">
+                            <h5>Telefon</h5>
+                            <span>0 (216) 379 04 10</span>
+                        </div>
+
+                        <button type="button">e-Posta Göndermek için Tıklayın</button>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="footer__loaciton">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.823353257518!2d29.243903915424024!3d40.89768963417137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cadc080c0fe141%3A0x84b2be7127486017!2sPendik%20T%C3%BCrk%20Telekom%20Mesleki%20ve%20Teknik%20Anadolu%20Lisesi!5e0!3m2!1str!2str!4v1679520469046!5m2!1str!2str" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+
+                <div class="col-12">
+                    <div class="footer__bottom__text">
+                        MEB © - Tüm Hakları Saklıdır. Gizlilik, Kullanım ve Telif Hakları bildiriminde belirtilen kurallar çerçevesinde hizmet sunulmaktadır.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer - [END^] -->
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        //   slidesPerView: 2,
+          spaceBetween: 10,
+          freeMode: true,
+          loop: true,
+          navigation: {
+            prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next",
+          },
+          breakpoints: {
+                330: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                },
+                768: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+                },
+            },
+          
+        });
+
+        var swiper = new Swiper(".mySwiper2", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          freeMode: true,
+          loop: true,
+          navigation: {
+            prevEl: ".swiper-button-prev2",
+            nextEl: ".swiper-button-next2",
+          },
+          
+        });
+
+        var swiper = new Swiper(".mySwiper3", {
+            // slidesPerView: 6,
+            spaceBetween: 20,
+            freeMode: true,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                330: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+                },
+                768: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+                },
+                1024: {
+                slidesPerView: 6,
+                spaceBetween: 20,
+                },
+            },
+            
+        });
+      </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
