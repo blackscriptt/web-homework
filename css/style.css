@@ -48,6 +48,13 @@ i{
     font-size: 1.3rem;
 }
 
+header,
+section,
+main,
+footer {
+    z-index: 5;
+}
+
 ul{
     margin: 0!important;
     padding: 0!important;
@@ -372,6 +379,89 @@ footer{
 /* media max 1129  - [END^] */
 
 
+
+/* background animation - [START] */
+.animations span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    /* background: var(--light-dark); */
+    border: 2px solid var(--light-black-05);
+
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    z-index: 0;
+
+    animation: kaan linear infinite;
+}
+
+.animations span:nth-child(1) {
+    left: 16%;
+    animation-duration: 21s;
+}
+
+.animations span:nth-child(2) {
+    left: 26%;
+    animation-duration: 28s;
+}
+
+.animations span:nth-child(3) {
+    left: 36%;
+    animation-duration: 29s;
+}
+
+.animations span:nth-child(4) {
+    left: 46%;
+    animation-duration: 23s;
+}
+
+.animations span:nth-child(5) {
+    left: 56%;
+    animation-duration: 17s;
+}
+
+.animations span:nth-child(6) {
+    left: 66%;
+    animation-duration: 20s;
+}
+
+.animations span:nth-child(7) {
+    left: 76%;
+    animation-duration: 27s;
+}
+
+.animations span:nth-child(8) {
+    left: 86%;
+    animation-duration: 22s;
+}
+
+.animations span:nth-child(9) {
+    left: 96%;
+    animation-duration: 26s;
+}
+
+.animations span:nth-child(10) {
+    left: 6%;
+    animation-duration: 24s;
+}
+
+@keyframes kaan {
+    from { 
+        /* opacity: 0; */
+        bottom: 0%;
+    }
+
+    to { 
+        /* opacity: 1; */
+        bottom: 100%;
+        transform: rotate(360deg);
+    }
+}
+/* background animation - [END^] */
+
+
+
 /* dark mode  - [START] */
 .dark___mode{
     background: var(--dark);
@@ -406,6 +496,9 @@ footer{
 }
 .dark___mode::-webkit-scrollbar-thumb {
     background: rgba(57, 57, 57, 0.8); 
+}
+.dark___mode .animations span {
+    border-color: var(--dark-white-05); 
 }
 /* dark mode  - [END^] */
 
