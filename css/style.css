@@ -247,10 +247,14 @@ article{
     
     transition: all .6s;
 }
+
+/* 
 article:hover{
-    transform: scale(1.2);
+    transform: scale(1.2); 
     z-index: 999999;
 }
+*/
+
 article:hover::before{
     content: '';
     position: absolute;
