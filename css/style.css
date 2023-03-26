@@ -392,6 +392,7 @@ footer{
     bottom: 0%;
     left: 0;
     z-index: 0;
+    opacity: 0;
 
     animation: kaan linear infinite;
 }
@@ -399,51 +400,61 @@ footer{
 .animations span:nth-child(1) {
     left: 16%;
     animation-duration: 21s;
+    animation-delay: 5s;
 }
 
 .animations span:nth-child(2) {
     left: 26%;
     animation-duration: 28s;
+    animation-delay: 3s;
 }
 
 .animations span:nth-child(3) {
     left: 36%;
     animation-duration: 29s;
+    animation-delay: 7s;
 }
 
 .animations span:nth-child(4) {
     left: 46%;
     animation-duration: 23s;
+    animation-delay: 2s;
 }
 
 .animations span:nth-child(5) {
     left: 56%;
     animation-duration: 17s;
+    animation-delay: 2s;
 }
 
 .animations span:nth-child(6) {
     left: 66%;
     animation-duration: 20s;
+    animation-delay: 6s;
 }
 
 .animations span:nth-child(7) {
     left: 76%;
     animation-duration: 27s;
+    animation-delay: 2s;
 }
 
 .animations span:nth-child(8) {
     left: 86%;
     animation-duration: 22s;
+    animation-delay: 8s;
 }
 
 .animations span:nth-child(9) {
     left: 96%;
     animation-duration: 26s;
+    animation-delay: 9s;
 }
 
 .animations span:nth-child(10) {
     left: 6%;
     animation-duration: 24s;
+    animation-delay: 7s;
 }
 
 @keyframes kaan {
