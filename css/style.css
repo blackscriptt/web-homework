@@ -486,7 +486,7 @@ footer{
 .dark___mode aside{
     background: var(--dark);
     color: var(--dark-white);
-    box-shadow: 0 0 15px 0 var(--dark-black);
+    box-shadow: 0 0 15px 0 var(--light-black);
 }
 .dark___mode .aside__user__info p{
     color: rgba(255, 255, 255, 0.5);
