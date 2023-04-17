@@ -5,9 +5,9 @@ $(document).ready(function() {
       .delay(4300)
       .animate({ opacity: '0' },
       function () {
-        $('#loading').animate({ opacity: '1' })
+        $('#loading').animate({ display: 'block' })
           .delay(1500)
-          .animate({ opacity: '0' });
+          .animate({ display: 'none' });
       });
     // loading - [END^]
     
