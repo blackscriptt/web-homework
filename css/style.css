@@ -535,7 +535,7 @@ footer,
 
 
 /* loading - [START] */
-@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 #loading {
     position: fixed;
     top: 0;
@@ -600,7 +600,7 @@ footer,
 
     color: #fff;
     font-size: 1.4rem;
-    font-family: 'Ovo', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 /* loading last - [END^] */
 
