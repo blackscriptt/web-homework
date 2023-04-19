@@ -567,6 +567,7 @@ footer,
 
 #loading .loading__first svg {
     width: 75%;
+    fill: #fff;
     fill-opacity: 0;
     stroke: #fff;
     stroke-width: 3px;
