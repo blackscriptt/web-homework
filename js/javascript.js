@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     // loading - [START]
     $('#loading .loading__first').animate({ opacity: '1' })
-      .delay(4300)
+      .delay(5000)
       .animate({ opacity: '0' },
       function () {
         $('#loading').animate({ opacity: '1' })
