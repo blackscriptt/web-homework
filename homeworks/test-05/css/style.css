@@ -1,0 +1,185 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #004d57;
+  color: #fff;
+}
+
+.not {
+  position: absolute;
+  left: 5%;
+  top: 45%;
+}
+
+.phone {
+  width: 358px;
+  height: 720px;
+  padding: 75px 13px;
+  padding-bottom: 67px;
+  background-image: url("../images/phone2.png");
+  background-size: cover;
+  position: relative;
+  z-index: 99999999;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.phone .phone__power {
+  position: absolute;
+  left: 98.33%;
+  top: 33.22%;
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 5px;
+  height: 45px;
+  opacity: 0;
+  background-color: red;
+}
+.phone #content {
+  width: 99.444%;
+  height: 100%;
+  z-index: 9999;
+  position: relative;
+  overflow: hidden;
+  overflow-y: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("../images/wallpaper.jpeg");
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  flex-direction: column;
+}
+.phone #content .phone__dark {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99991;
+  background: #000;
+}
+.phone #content .nav__top {
+  background-color: #000;
+  padding: 2px 7px;
+  display: flex;
+  align-items: center;
+}
+.phone #content .nav__top .card__name {
+  font-size: 0.7rem;
+  margin: 0;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.phone #content .nav__top ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+}
+.phone #content .nav__top ul.notifications {
+  margin-right: auto;
+}
+.phone #content .nav__top ul li i {
+  font-size: 0.7rem;
+}
+.phone #content .nav__top ul li i[class*=battery] {
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+.phone #content .nav__top ul li .clock {
+  font-size: 0.8rem;
+}
+.phone #content main {
+  height: 100%;
+}
+.phone #content main .widget__clockWeather {
+  padding: 40px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phone #content main .widget__clockWeather .left {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: right;
+  padding-right: 20px;
+}
+.phone #content main .widget__clockWeather .left .clock {
+  font-size: 3rem;
+}
+.phone #content main .widget__clockWeather .left .footer span {
+  display: block;
+  font-size: 0.7rem;
+}
+.phone #content main .widget__clockWeather .left .footer span i {
+  margin-left: 2px;
+}
+.phone #content main .widget__clockWeather .right {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.phone #content main .widget__clockWeather .right .weather {
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.phone #content main .widget__clockWeather .right .weather i {
+  font-size: 2.3rem;
+}
+.phone #content main .widget__clockWeather .right .weather .extent {
+  font-size: 1.3rem;
+}
+.phone #content main .widget__clockWeather .right .todayExtent {
+  font-size: 0.7rem;
+}
+.phone #content .nav__bottom {
+  padding: 0 20px;
+}
+.phone #content .nav__bottom .favorite__application {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.phone #content .nav__bottom .favorite__application li a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+}
+.phone #content .nav__bottom .favorite__application li a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.phone #content .nav__bottom .navigator {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.phone #content .nav__bottom .navigator li {
+  cursor: pointer;
+}
+.phone #content .nav__bottom .navigator li i {
+  font-size: 1rem;
+}
+.phone #content .nav__bottom .navigator li i[class*=caret-left] {
+  font-size: 1.5rem;
+  margin-top: 4px;
+}/*# sourceMappingURL=style.css.map */
