@@ -110,7 +110,7 @@ header{
     background-position: center;
     /* background-position: 0 -400px; */
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     object-fit: cover;
 
     position: relative;
