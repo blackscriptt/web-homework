@@ -105,11 +105,13 @@ ul{
 /* header - [START] */
 header{
     height: 20vh;
-    background-image: url('../images/bg-header.webp');
+    background-image: url('../images/bg-header2.webp');
     background-size: cover;
-    background-position: 0 -400px;
+    background-position: center;
+    /* background-position: 0 -400px; */
     background-repeat: no-repeat;
     background-attachment: fixed;
+    object-fit: cover;
 
     position: relative;
 }
