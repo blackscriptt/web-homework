@@ -107,7 +107,7 @@ header{
     height: 20vh;
     background-image: url('../images/bg-header3.webp');
     background-size: cover;
-    background-position: center;
+    background-position: 0 -80px;
     /* background-position: 0 -400px; */
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
