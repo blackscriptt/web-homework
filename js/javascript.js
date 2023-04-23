@@ -67,6 +67,17 @@ $(document).ready(function() {
 
     /* aside - [END^] */
 
+
+    // article video - [START]
+    $('article').on('mouseover', function() {
+        $(this).find('video').get(0).play();
+      });
+
+      $('article').on('mouseout', function() {
+        $(this).find('video').get(0).pause();
+    });
+    // article video - [END^]
+
     /* yukari - [START] */
     window.addEventListener('scroll', function(){
         const YUKARI = document.querySelector('.yukari');
