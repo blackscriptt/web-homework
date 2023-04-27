@@ -69,13 +69,13 @@ $(document).ready(function() {
 
 
     // article video - [START]
-    $('article').on('mouseover', function() {
+    $('article').on('hover', function() {
         $(this).find('video').get(0).play();
       });
 
-      $('article').on('mouseout', function() {
-        $(this).find('video').get(0).pause();
-    });
+    //   $('article').on('mouseout', function() {
+    //     $(this).find('video').get(0).pause();
+    // });
     // article video - [END^]
 
     /* yukari - [START] */
