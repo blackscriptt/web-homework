@@ -69,13 +69,25 @@ $(document).ready(function() {
 
 
     // article video - [START]
-    $('article').on('hover', function() {
-        $(this).find('video').get(0).play();
-      });
-
-    //   $('article').on('mouseout', function() {
-    //     $(this).find('video').get(0).pause();
-    // });
+    
+        // video play
+        $('article').on('mouseover', function() {
+            try {
+                $(this).find('video').get(0).play();
+            }
+            catch(error) {
+                console.log('video bulunamadı');
+            }
+        });
+    
+        // video pause
+        $('article').on('mouseout', function() {
+            try {
+                $(this).find('video').get(0).pause();
+            }
+            catch(error) {}
+        }); 
+    
     // article video - [END^]
 
     /* yukari - [START] */
