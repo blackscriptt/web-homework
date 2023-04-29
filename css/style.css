@@ -578,7 +578,6 @@ footer,
 #loading .loading__first svg {
     width: 75%;
     fill: #fff;
-    fill-opacity: 0;
     stroke: #fff;
     stroke-width: 3px;
     stroke-dashoffset: 0;
@@ -593,7 +592,7 @@ footer,
 }
 
 @keyframes loadingSvg {
-    0% { stroke-dashoffset: 1000; }
+    0% { stroke-dashoffset: 1000; fill-opacity: 0; }
     
     40% { fill-opacity: 0; }
     
