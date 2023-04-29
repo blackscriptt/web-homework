@@ -1,18 +1,4 @@
 $(document).ready(function() {
-
-    // loading - [START]
-    $('#loading .loading__first').animate({ opacity: '1' })
-      .delay(7000)
-      .animate({ opacity: '0' },
-      function () {
-        $('#loading').animate({ opacity: '1' })
-          .delay(1500)
-          .animate({ opacity: '0' }, function() { $(this).css({ display: 'none' }) });
-      });
-    // loading - [END^]
-    
-    
-    
     /* dark - light mode - [START] */
     const DARK_MODE = document.querySelector('.dark__mode');
     const LIGHT_MODE = document.querySelector('.light__mode');
